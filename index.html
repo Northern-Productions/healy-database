@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles.css">
+  <title>Healy database</title>
+</head>
+<body>
+  
+  <h1 class="header">Healy database</h1>
+
+  <span class="model-header center">Select your model of healy</span>
+
+  <div class="healy-models">
+    <div class="healy" data-active="not" id="all">All</div>
+    <div class="healy" data-active="not" id="gold">Gold</div>
+    <div class="healy" data-active="not" id="holistic">Holistic</div>
+    <div class="healy" data-active="not" id="resonance">Resonance</div>
+    <div class="healy" data-active="not" id="resonance-plus">Resonance+</div>
+    <div class="healy" data-active="not" id="pro">Pro</div>
+  </div>
+
+    <div class="center">
+      <label id="search-ctn" for="search">
+        <input type="text" id="search" name="search" placeholder="Search..." autocomplete="off">
+        <i class="fas fa-search"></i>
+      </label>
+    </div>
+
+    <div class="data-ctn"></div>
+
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
