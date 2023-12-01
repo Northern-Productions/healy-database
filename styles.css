@@ -77,3 +77,20 @@ body {
 .data-ctn div img {
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .healy-models {
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .healy-models div {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    font-size: 4rem;
+  }
+}
