@@ -91,10 +91,25 @@ body {
   .healy-models div:hover {
     color: purple;
   }
+
+  .data-ctn div {
+    width: 7rem;
+    height: 10rem;
+  }
 }
 
 @media (max-width: 425px) {
   .header {
     font-size: 4rem;
+  }
+
+  .data-ctn {
+    margin: 2rem 0;
+  }
+
+  .data-ctn div {
+    margin: 1rem 0;
+    width: 5rem;
+    height: 7rem;
   }
 }
