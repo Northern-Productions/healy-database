@@ -3,7 +3,6 @@ import { dataObjects } from "./data.js";
 const allDataObjects = "[data-tags]";
 
 const healyModels = document.querySelectorAll(".healy");
-const healyModelsId = Array.from(healyModels).map((model) => model.id);
 
 const searchBar = document.querySelector("#search");
 
@@ -20,8 +19,6 @@ function addData(data) {
     dataContainer.appendChild(objContainer);
   });
 }
-
-addData(dataObjects);
 
 //Filter data cards
 function filterCards(data) {
@@ -55,6 +52,7 @@ function setActiveModel(model) {
       model.dataset.active = "active";
       model.classList.add("active");
       dataContainer.innerHTML = "";
+      searchBar.value = "";
       const filteredDataObjects = dataObjects.filter((obj) =>
         obj.models.includes(model.id)
       );
