@@ -87,6 +87,10 @@ body {
   .healy-models div {
     margin: 1rem;
   }
+
+  .healy-models div:hover {
+    color: purple;
+  }
 }
 
 @media (max-width: 425px) {
