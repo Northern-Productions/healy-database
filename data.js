@@ -111,7 +111,7 @@ export const dataObjects = [
     img: "images/beauty and skin/scar harmony syst.jpg",
     name: "scar harmony systemic",
     models: ["all", "resonance-plus", "pro"],
-    tags: ["scar", "skin", "beauty", "systemic", "harmony"],
+    tags: ["scar", "skin", "beauty", "systemic", "harmony", "asthma"],
   },
   {
     img: "images/beauty and skin/skin harmony local.jpg",
@@ -137,7 +137,7 @@ export const dataObjects = [
     img: "images/bioenergetic harmony 1/circulation.jpg",
     name: "circulation",
     models: ["all", "holistic", "resonance-plus", "pro"],
-    tags: ["blood", "circulation"],
+    tags: ["blood", "circulation", "asthma"],
   },
   {
     img: "images/bioenergetic harmony 1/defense.jpg",
@@ -214,7 +214,7 @@ export const dataObjects = [
     img: "images/bioenergetic harmony 1/sensitivity.jpg",
     name: "sensitivity",
     models: ["all", "holistic", "resonance-plus", "pro"],
-    tags: ["sensitivity", "sensitive"],
+    tags: ["sensitivity", "sensitive", "asthma"],
   },
   {
     img: "images/bioenergetic harmony 1/shiver.jpg",
@@ -316,6 +316,7 @@ export const dataObjects = [
       "detox",
       "breath",
       "breathing",
+      "asthma",
     ],
   },
   {
@@ -362,13 +363,13 @@ export const dataObjects = [
     img: "images/deep cycle H/breath of life.jpg",
     name: "breath of life",
     models: ["all", "resonance-plus", "pro"],
-    tags: ["breath", "of", "life", "live"],
+    tags: ["breath", "of", "life", "live", "asthma"],
   },
   {
     img: "images/deep cycle H/clean all.jpg",
     name: "clean all",
     models: ["all", "resonance-plus", "pro"],
-    tags: ["clean", "all", "cleanse", "clear", "pure", "purify"],
+    tags: ["clean", "all", "cleanse", "clear", "pure", "purify", "asthma"],
   },
   {
     img: "images/deep cycle H/digest all.jpg",
@@ -422,6 +423,7 @@ export const dataObjects = [
       "base",
       "foundation",
       "beginning",
+      "asthma",
     ],
   },
   {
@@ -484,7 +486,7 @@ export const dataObjects = [
     img: "images/deep cycle H/sensitive.jpg",
     name: "sensitive",
     models: ["all", "resonance-plus", "pro"],
-    tags: ["sensitive", "sensitivity"],
+    tags: ["sensitive", "sensitivity", "asthma"],
   },
   //DEEP CYCLE H
   //FITNESS
@@ -579,7 +581,15 @@ export const dataObjects = [
     img: "images/gold cycle/balance.jpg",
     name: "balance",
     models: ["all", "gold", "resonance-plus", "pro"],
-    tags: ["balance", "stability", "stable", "center", "equal", "equilibrium"],
+    tags: [
+      "balance",
+      "stability",
+      "stable",
+      "center",
+      "equal",
+      "equilibrium",
+      "asthma",
+    ],
   },
   {
     img: "images/gold cycle/being.jpg",
@@ -608,6 +618,7 @@ export const dataObjects = [
       "connection",
       "nurture",
       "nurturing",
+      "asthma",
     ],
   },
   {
@@ -636,6 +647,7 @@ export const dataObjects = [
       "clear",
       "cleanse",
       "remove",
+      "asthma",
     ],
   },
   {
@@ -648,7 +660,16 @@ export const dataObjects = [
     img: "images/gold cycle/release.jpg",
     name: "release",
     models: ["all", "gold", "resonance-plus", "pro"],
-    tags: ["release", "let", "go", "clean", "cleanse", "pure", "purify"],
+    tags: [
+      "release",
+      "let",
+      "go",
+      "clean",
+      "cleanse",
+      "pure",
+      "purify",
+      "asthma",
+    ],
   },
   //FITNESS
   //JOB AND SLEEP
@@ -891,7 +912,15 @@ export const dataObjects = [
     img: "images/meridians 1/allergy meridian.jpg",
     name: "allergy meridian",
     models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
-    tags: ["allergy", "meridian", "meridians", "allergic", "clear", "cleanse"],
+    tags: [
+      "allergy",
+      "meridian",
+      "meridians",
+      "allergic",
+      "clear",
+      "cleanse",
+      "asthma",
+    ],
   },
   {
     img: "images/meridians 1/bladder.jpg",
@@ -1005,6 +1034,7 @@ export const dataObjects = [
       "digestion",
       "organ",
       "organs",
+      "asthma",
     ],
   },
   {
@@ -1067,7 +1097,7 @@ export const dataObjects = [
     img: "images/meridians 2/lungs.jpg",
     name: "lungs",
     models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
-    tags: ["meridian", "meridians", "lungs", "organ", "organs"],
+    tags: ["meridian", "meridians", "lungs", "organ", "organs", "asthma"],
   },
   {
     img: "images/meridians 2/lymphatic system.jpg",
@@ -1185,7 +1215,7 @@ export const dataObjects = [
     img: "images/the power of three/rebalance.jpg",
     name: "rebalance",
     models: ["all", "resonance", "resonance-plus", "pro"],
-    tags: ["the", "power", "of", "three", "rebalance"],
+    tags: ["the", "power", "of", "three", "rebalance", "asthma"],
   },
   {
     img: "images/the power of three/rife energetic.jpg",
@@ -1197,13 +1227,13 @@ export const dataObjects = [
     img: "images/the power of three/rife physical.jpg",
     name: "rife physical",
     models: ["all", "resonance", "resonance-plus", "pro"],
-    tags: ["the", "power", "of", "three", "rife", "physical"],
+    tags: ["the", "power", "of", "three", "rife", "physical", "asthma"],
   },
   {
     img: "images/the power of three/vata.jpg",
     name: "vata",
     models: ["all", "resonance", "resonance-plus", "pro"],
-    tags: ["the", "power", "of", "three", "vata"],
+    tags: ["the", "power", "of", "three", "vata", "asthma"],
   },
   {
     img: "images/the power of three/zapper protocol.jpg",
