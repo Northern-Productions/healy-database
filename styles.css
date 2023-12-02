@@ -63,7 +63,7 @@ body {
   margin: 2rem;
 }
 
-.data-ctn div {
+.prog-card {
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem;
@@ -74,8 +74,42 @@ body {
   overflow: hidden;
 }
 
-.data-ctn div img {
+.prog-card:hover {
+  box-shadow: 0px 0px 20px 0px;
+  transition: box-shadow 0.1s ease-in;
+  cursor: pointer;
+}
+
+.prog-card img {
   width: 100%;
+}
+
+.modal-body {
+  position: fixed;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border: 3px solid #333;
+  border-radius: 15px;
+}
+
+.modal-body div {
+  position: relative;
+}
+
+.modal-body i {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+.modal-body img {
+  width: 100%;
+  height: 85%;
+  margin: 2.5rem 0;
 }
 
 @media (max-width: 768px) {
@@ -92,7 +126,7 @@ body {
     color: purple;
   }
 
-  .data-ctn div {
+  .prog-card {
     width: 7rem;
     height: 10rem;
   }
@@ -107,7 +141,7 @@ body {
     margin: 2rem 0;
   }
 
-  .data-ctn div {
+  .prog-card {
     margin: 1rem 0;
     width: 5rem;
     height: 7rem;

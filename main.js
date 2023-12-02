@@ -16,6 +16,9 @@ function addData(data) {
     <img src="${obj.img}" alt="${obj.name}">
     `;
     objContainer.dataset.tags = obj.tags.join(", ");
+    objContainer.dataset.models = obj.models.join(", ");
+    objContainer.classList.add("prog-card");
+    objContainer.id = obj.name;
     dataContainer.appendChild(objContainer);
   });
 }
@@ -51,21 +54,54 @@ function setActiveModel(model) {
 
       model.dataset.active = "active";
       model.classList.add("active");
-      dataContainer.innerHTML = "";
       searchBar.value = "";
-      const filteredDataObjects = dataObjects.filter((obj) =>
-        obj.models.includes(model.id)
-      );
-      addData(filteredDataObjects);
-      filterCards(allDataObjects);
+    }
+    const availableCards = document.querySelectorAll(allDataObjects);
+    availableCards.forEach((obj) => {
+      if (obj.dataset.models.includes(model.id)) {
+        obj.style.display = "block";
+      } else {
+        obj.style.display = "none";
+      }
+    });
+  });
+}
+
+//Make cards clickable to open and close modal
+function openCloseModal(data) {
+  data.forEach((card) => {
+    if (card) {
+      const getCard = document.getElementById(card.name);
+      getCard.addEventListener("click", () => {
+        const modalContainer = document.createElement("div");
+        modalContainer.innerHTML = `
+      <div><i class="fas fa-times" data-close></i></div>
+      <img src="${card.modal}">
+      `;
+        modalContainer.classList.add("modal-body");
+        modalContainer.id = "popup-modal";
+        dataContainer.appendChild(modalContainer);
+
+        const modal = document.getElementById("popup-modal");
+        const closeModal = document.querySelector("[data-close]");
+        closeModal.addEventListener("click", () => {
+          dataContainer.removeChild(modal);
+        });
+      });
     }
   });
 }
 
+//Make cards
 addData(dataObjects);
 
+//Set active healy model
 healyModels.forEach((model) => {
   setActiveModel(model);
 });
 
+//Filter cards based on active healy model
 filterCards(allDataObjects);
+
+//Make cards clickable to open and close info modal
+openCloseModal(dataObjects);
