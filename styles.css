@@ -87,8 +87,6 @@ body {
 .modal-body {
   position: fixed;
   top: 10%;
-  width: 80%;
-  height: 80%;
   background-color: white;
   border: 3px solid #333;
   border-radius: 15px;
