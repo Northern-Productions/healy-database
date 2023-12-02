@@ -3,7 +3,7 @@ export const dataObjects = [
   {
     img: "images/chakras/crown.jpg",
     name: "Crown Chakra",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     modal: "images/modal content/crown modal.jpg",
     tags: [
       "crown",
@@ -19,7 +19,7 @@ export const dataObjects = [
   {
     img: "images/chakras/Third eye.jpg",
     name: "Third Eye Chakra",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     modal: "images/modal content/third eye modal.jpg",
     tags: [
       "third",
@@ -37,7 +37,7 @@ export const dataObjects = [
   {
     img: "images/chakras/Throat.jpg",
     name: "Throat Chakra",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     modal: "images/modal content/throat modal.jpg",
     tags: [
       "throat",
@@ -52,14 +52,14 @@ export const dataObjects = [
   {
     img: "images/chakras/heart.jpg",
     name: "Heart Chakra",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     modal: "images/modal content/heart modal.jpg",
     tags: ["heart", "love", "care", "compassion", "relation", "self", "chakra"],
   },
   {
     img: "images/chakras/solar.jpg",
     name: "Solar Plexus Chakra",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     modal: "images/modal content/solar modal.jpg",
     tags: [
       "solar",
@@ -78,7 +78,7 @@ export const dataObjects = [
   {
     img: "images/chakras/sacral.jpg",
     name: "Sacral Chakra",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     modal: "images/modal content/sacral modal.jpg",
     tags: [
       "sacral",
@@ -94,7 +94,7 @@ export const dataObjects = [
   {
     img: "images/chakras/root.jpg",
     name: "Root Chakra",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     modal: "images/modal content/root modal.jpg",
     tags: [
       "root",
@@ -111,31 +111,31 @@ export const dataObjects = [
   {
     img: "images/beauty and skin/scar harmony local.jpg",
     name: "Scar Harmony Local",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["scar", "skin", "beauty", "local", "harmony"],
   },
   {
     img: "images/beauty and skin/scar harmony syst.jpg",
     name: "Scar Harmony Systemic",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["scar", "skin", "beauty", "systemic", "harmony", "asthma"],
   },
   {
     img: "images/beauty and skin/skin harmony local.jpg",
     name: "Skin Harmony Local",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["skin", "beauty", "local", "harmony"],
   },
   {
     img: "images/beauty and skin/skin harmony syst.jpg",
     name: "Skin Harmony Systemic",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["skin", "harmony", "beauty", "systemic"],
   },
   {
     img: "images/beauty and skin/skin impurity syst.jpg",
     name: "Skin Impurity Systemic",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["skin", "impurity", "beauty", "systemic", "purity"],
   },
   //SKIN AND BEAUTY
@@ -143,31 +143,31 @@ export const dataObjects = [
   {
     img: "images/bioenergetic harmony 1/circulation.jpg",
     name: "Circulation",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["blood", "circulation", "asthma"],
   },
   {
     img: "images/bioenergetic harmony 1/defense.jpg",
     name: "Defense",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["defense", "shield", "resistance", "immunity"],
   },
   {
     img: "images/bioenergetic harmony 1/eyes harmony.jpg",
     name: "Eyes Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["eyes", "sight", "vision", "see", "look", "harmony"],
   },
   {
     img: "images/bioenergetic harmony 1/flexibility.jpg",
     name: "Flexibility",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["flexibility", "flexible", "stretch", "move"],
   },
   {
     img: "images/bioenergetic harmony 1/for mature women.jpg",
     name: "For Mature Women",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: [
       "female",
       "feminine",
@@ -182,19 +182,19 @@ export const dataObjects = [
   {
     img: "images/bioenergetic harmony 1/for women.jpg",
     name: "For Women",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["female", "feminine", "for", "women", "woman", "lady", "ladies"],
   },
   {
     img: "images/bioenergetic harmony 1/hormone harmony.jpg",
     name: "Hormone Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["hormone", "harmony"],
   },
   {
     img: "images/bioenergetic harmony 1/intestine harmony.jpg",
     name: "Intestine Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: [
       "intestine",
       "harmony",
@@ -208,25 +208,25 @@ export const dataObjects = [
   {
     img: "images/bioenergetic harmony 1/nerve harmony.jpg",
     name: "Nerve Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["nerve", "harmony"],
   },
   {
     img: "images/bioenergetic harmony 1/potency.jpg",
     name: "Potency",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["potency", "potent"],
   },
   {
     img: "images/bioenergetic harmony 1/sensitivity.jpg",
     name: "Sensitivity",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["sensitivity", "sensitive", "asthma"],
   },
   {
     img: "images/bioenergetic harmony 1/shiver.jpg",
     name: "Shiver",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["shiver", "cold", "chill"],
   },
   //BIOENERGETIC 1
@@ -234,25 +234,25 @@ export const dataObjects = [
   {
     img: "images/bioenergetic harmony 2/bacteria harmony.jpg",
     name: "Bacteria Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["bacteria", "harmony", "gut"],
   },
   {
     img: "images/bioenergetic harmony 2/food imbalance.jpg",
     name: "Food Imbalance",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["food", "imbalance", "digestion"],
   },
   {
     img: "images/bioenergetic harmony 2/gastrointestinal harmony.jpg",
     name: "Gastrointestinal Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["gastrointestinal", "harmony", "gut", "digestion", "digest"],
   },
   {
     img: "images/bioenergetic harmony 2/head harmony.jpg",
     name: "Head Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: [
       "head",
       "harmony",
@@ -267,7 +267,7 @@ export const dataObjects = [
   {
     img: "images/bioenergetic harmony 2/impurities.jpg",
     name: "Impurities",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: [
       "impurities",
       "pure",
@@ -281,7 +281,7 @@ export const dataObjects = [
   {
     img: "images/bioenergetic harmony 2/joints-bone harmony.jpg",
     name: "Joints and Bone Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: [
       "joints",
       "bone",
@@ -296,7 +296,7 @@ export const dataObjects = [
   {
     img: "images/bioenergetic harmony 2/liver harmony.jpg",
     name: "Liver Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: [
       "liver",
       "harmony",
@@ -312,7 +312,7 @@ export const dataObjects = [
   {
     img: "images/bioenergetic harmony 2/lung harmony.jpg",
     name: "Lung Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: [
       "lung",
       "harmony",
@@ -329,25 +329,25 @@ export const dataObjects = [
   {
     img: "images/bioenergetic harmony 2/prostate harmony.jpg",
     name: "Prostate Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["prostate", "harmony", "fortify", "renew", "organ", "organs"],
   },
   {
     img: "images/bioenergetic harmony 2/sciatica nerve harmony local.jpg",
     name: "Sciatica Nerve Harmony Local",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["sciatica", "nerve", "harmony", "local"],
   },
   {
     img: "images/bioenergetic harmony 2/thyroid gland harmony.jpg",
     name: "Thyroid Gland Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["thyroid", "gland", "harmony"],
   },
   {
     img: "images/bioenergetic harmony 2/tonsil harmony.jpg",
     name: "Tonsil Harmony",
-    models: ["all", "holistic", "resonance-plus", "pro"],
+    models: ["all", "holistic", "plus", "pro"],
     tags: ["tonsil", "harmony", "mouth", "throat"],
   },
   //BIOENERGETIC 2
@@ -355,13 +355,13 @@ export const dataObjects = [
   {
     img: "images/bioenergetic support/bioenergetic boost.jpg",
     name: "Bioenergetic Boost",
-    models: ["all", "gold", "resonance-plus", "pro"],
+    models: ["all", "gold", "plus", "pro"],
     tags: ["bioenergetic", "boost"],
   },
   {
     img: "images/bioenergetic support/coherence.jpg",
     name: "Coherence",
-    models: ["all", "gold", "resonance-plus", "pro"],
+    models: ["all", "gold", "plus", "pro"],
     tags: ["coherence", "mind", "brain", "focus", "learn", "learning"],
   },
   //BIOENERGETIC SUPPORT
@@ -369,19 +369,19 @@ export const dataObjects = [
   {
     img: "images/deep cycle H/breath of life.jpg",
     name: "Breath of Life",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["breath", "of", "life", "live", "asthma"],
   },
   {
     img: "images/deep cycle H/clean all.jpg",
     name: "Clean All",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["clean", "all", "cleanse", "clear", "pure", "purify", "asthma"],
   },
   {
     img: "images/deep cycle H/digest all.jpg",
     name: "Digest All",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: [
       "digest",
       "all",
@@ -397,7 +397,7 @@ export const dataObjects = [
   {
     img: "images/deep cycle H/energy work.jpg",
     name: "Energy Work",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: [
       "energy",
       "energy cleanse",
@@ -414,13 +414,13 @@ export const dataObjects = [
   {
     img: "images/deep cycle H/free flow.jpg",
     name: "Free Flow",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["free", "flow", "move", "movement"],
   },
   {
     img: "images/deep cycle H/go to the roots.jpg",
     name: "Go To The Roots",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: [
       "go",
       "to",
@@ -436,7 +436,7 @@ export const dataObjects = [
   {
     img: "images/deep cycle H/kidney harmony female.jpg",
     name: "Kidney Harmony Female",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: [
       "kidney",
       "harmony",
@@ -451,7 +451,7 @@ export const dataObjects = [
   {
     img: "images/deep cycle H/kidney harmony male.jpg",
     name: "Kidney Harmony Male",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: [
       "kidney",
       "harmony",
@@ -466,13 +466,13 @@ export const dataObjects = [
   {
     img: "images/deep cycle H/pure calm.jpg",
     name: "Pure Calm",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["pure", "calm", "relax", "relaxing", "relief", "reliving"],
   },
   {
     img: "images/deep cycle H/pure energy.jpg",
     name: "Pure Energy",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: [
       "pure",
       "energy",
@@ -486,13 +486,13 @@ export const dataObjects = [
   {
     img: "images/deep cycle H/renewal.jpg",
     name: "Renewal",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["renewal", "renew", "begin", "fresh", "refresh", "clean", "cleanse"],
   },
   {
     img: "images/deep cycle H/sensitive.jpg",
     name: "Sensitive",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["sensitive", "sensitivity", "asthma"],
   },
   //DEEP CYCLE H
@@ -500,13 +500,13 @@ export const dataObjects = [
   {
     img: "images/fitness/circulation.jpg",
     name: "Circulation",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["circulation", "circulate", "flow", "fitness"],
   },
   {
     img: "images/fitness/deep relaxation.jpg",
     name: "Deep Relaxation",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: [
       "deep",
       "relaxation",
@@ -520,7 +520,7 @@ export const dataObjects = [
   {
     img: "images/fitness/muscle harmony.jpg",
     name: "Muscle Harmony",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: [
       "muscle",
       "harmony",
@@ -535,7 +535,7 @@ export const dataObjects = [
   {
     img: "images/fitness/performance.jpg",
     name: "Performance",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: [
       "performance",
       "perform",
@@ -550,7 +550,7 @@ export const dataObjects = [
   {
     img: "images/fitness/regeneration.jpg",
     name: "Regeneration",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: [
       "regeneration",
       "regenerate",
@@ -567,19 +567,19 @@ export const dataObjects = [
   {
     img: "images/fitness/stamina.jpg",
     name: "Stamina",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["stamina", "endurance", "out", "last", "fortify", "fitness"],
   },
   {
     img: "images/fitness/strength.jpg",
     name: "Strength",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["strength", "strengthen", "power", "force", "fitness"],
   },
   {
     img: "images/fitness/weight.jpg",
     name: "Weight",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["weight", "gain", "loss", "fat", "muscle", "muscles", "fitness"],
   },
   //FITNESS
@@ -587,7 +587,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/balance.jpg",
     name: "Balance",
-    models: ["all", "gold", "resonance-plus", "pro"],
+    models: ["all", "gold", "plus", "pro"],
     tags: [
       "balance",
       "stability",
@@ -601,7 +601,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/being.jpg",
     name: "being",
-    models: ["all", "gold", "resonance-plus", "pro"],
+    models: ["all", "gold", "plus", "pro"],
     tags: [
       "being",
       "now",
@@ -616,7 +616,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/care.jpg",
     name: "care",
-    models: ["all", "gold", "resonance-plus", "pro"],
+    models: ["all", "gold", "plus", "pro"],
     tags: [
       "care",
       "love",
@@ -631,7 +631,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/energy.jpg",
     name: "energy",
-    models: ["all", "gold", "resonance-plus", "pro"],
+    models: ["all", "gold", "plus", "pro"],
     tags: [
       "energy",
       "pure",
@@ -645,7 +645,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/pure.jpg",
     name: "pure",
-    models: ["all", "gold", "resonance-plus", "pro"],
+    models: ["all", "gold", "plus", "pro"],
     tags: [
       "pure",
       "impurities",
@@ -660,13 +660,13 @@ export const dataObjects = [
   {
     img: "images/gold cycle/relax.jpg",
     name: "relax",
-    models: ["all", "gold", "resonance-plus", "pro"],
+    models: ["all", "gold", "plus", "pro"],
     tags: ["relax", "relaxing", "relaxation", "refresh", "calm", "peace"],
   },
   {
     img: "images/gold cycle/release.jpg",
     name: "release",
-    models: ["all", "gold", "resonance-plus", "pro"],
+    models: ["all", "gold", "plus", "pro"],
     tags: [
       "release",
       "let",
@@ -683,7 +683,7 @@ export const dataObjects = [
   {
     img: "images/job and sleep/balanced sleep.jpg",
     name: "balanced sleep",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: [
       "balanced",
       "sleep",
@@ -697,19 +697,19 @@ export const dataObjects = [
   {
     img: "images/job and sleep/bed rest.jpg",
     name: "bed rest",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["bed", "rest", "sleep", "rest", "deep", "rejuvenate"],
   },
   {
     img: "images/job and sleep/fine flow.jpg",
     name: "fine flow",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["fine", "flow", "aptitude", "performance", "refined", "optimal"],
   },
   {
     img: "images/job and sleep/sleep syst.jpg",
     name: "sleep systemic",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["sleep", "systemic", "deep", "rest", "rejuvenate"],
   },
   //JOB AND SLEEP
@@ -717,31 +717,31 @@ export const dataObjects = [
   {
     img: "images/learning/concentration acute.jpg",
     name: "concentration acute",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["concentration", "acute", "focus"],
   },
   {
     img: "images/learning/concentration syst.jpg",
     name: "concentration systemic",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["concentration", "systemic", "focus"],
   },
   {
     img: "images/learning/exam acute.jpg",
     name: "exam acute",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["exam", "acute", "focus", "learn", "learning", "performance"],
   },
   {
     img: "images/learning/exam syst.jpg",
     name: "exam systemic",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["exam", "systemic", "focus", "learn", "learning", "performance"],
   },
   {
     img: "images/learning/learning acute.jpg",
     name: "learning acute",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: [
       "learning",
       "acute",
@@ -755,7 +755,7 @@ export const dataObjects = [
   {
     img: "images/learning/learning syst.jpg",
     name: "learning systemic",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: [
       "learning",
       "systemic",
@@ -769,13 +769,13 @@ export const dataObjects = [
   {
     img: "images/learning/memory.jpg",
     name: "memory",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: ["memory", "remember", "retain", "retention", "recall", "focus"],
   },
   {
     img: "images/learning/stress acute.jpg",
     name: "stress acute",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: [
       "stress",
       "acute",
@@ -791,7 +791,7 @@ export const dataObjects = [
   {
     img: "images/learning/stress syst.jpg",
     name: "stress systemic",
-    models: ["all", "resonance-plus", "pro"],
+    models: ["all", "plus", "pro"],
     tags: [
       "stress",
       "systemic",
@@ -809,7 +809,7 @@ export const dataObjects = [
   {
     img: "images/mental balance/contentment acute.jpg",
     name: "contentment acute",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "contentment",
       "acute",
@@ -823,7 +823,7 @@ export const dataObjects = [
   {
     img: "images/mental balance/contentment syst.jpg",
     name: "contentment systemic",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "contentment",
       "systemic",
@@ -837,7 +837,7 @@ export const dataObjects = [
   {
     img: "images/mental balance/emotional wellbeing.jpg",
     name: "emotional wellbeing",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "emotional",
       "wellbeing",
@@ -851,13 +851,13 @@ export const dataObjects = [
   {
     img: "images/mental balance/feel good syst.jpg",
     name: "feel good systemic",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: ["feel", "good", "systemic", "peace", "calm", "enjoy", "enjoyment"],
   },
   {
     img: "images/mental balance/inner strength syst.jpg",
     name: "inner strength systemic",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "inner",
       "strength",
@@ -870,7 +870,7 @@ export const dataObjects = [
   {
     img: "images/mental balance/inner unity.jpg",
     name: "inner unity",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "inner",
       "unity",
@@ -884,7 +884,7 @@ export const dataObjects = [
   {
     img: "images/mental balance/mental balance acute.jpg",
     name: "mental balance acute",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "mental",
       "balance",
@@ -901,7 +901,7 @@ export const dataObjects = [
   {
     img: "images/mental balance/wellbeing soul.jpg",
     name: "wellbeing soul",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "wellbeing",
       "soul",
@@ -918,7 +918,7 @@ export const dataObjects = [
   {
     img: "images/meridians 1/allergy meridian.jpg",
     name: "allergy meridian",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "allergy",
       "meridian",
@@ -932,7 +932,7 @@ export const dataObjects = [
   {
     img: "images/meridians 1/bladder.jpg",
     name: "bladder",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "bladder",
       "urine",
@@ -946,7 +946,7 @@ export const dataObjects = [
   {
     img: "images/meridians 1/connective tissue.jpg",
     name: "connective tissue",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "connective",
       "tissue",
@@ -962,7 +962,7 @@ export const dataObjects = [
   {
     img: "images/meridians 1/fatty degeneration.jpg",
     name: "fatty degeneration",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "fatty",
       "degeneration",
@@ -983,7 +983,7 @@ export const dataObjects = [
   {
     img: "images/meridians 1/gall bladder.jpg",
     name: "gall bladder",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "gall",
       "bladder",
@@ -999,7 +999,7 @@ export const dataObjects = [
   {
     img: "images/meridians 1/heart.jpg",
     name: "heart",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "heart",
       "blood",
@@ -1014,7 +1014,7 @@ export const dataObjects = [
   {
     img: "images/meridians 1/joints.jpg",
     name: "joints",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "joints",
       "flexible",
@@ -1029,7 +1029,7 @@ export const dataObjects = [
   {
     img: "images/meridians 1/large intestine.jpg",
     name: "large intestine",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "meridian",
       "meridians",
@@ -1047,13 +1047,13 @@ export const dataObjects = [
   {
     img: "images/meridians 1/skin harmony.jpg",
     name: "skin harmony",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: ["meridian", "meridians", "skin", "harmony", "organ", "organs"],
   },
   {
     img: "images/meridians 1/small intestine.jpg",
     name: "small intestine",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "meridian",
       "meridians",
@@ -1072,7 +1072,7 @@ export const dataObjects = [
   {
     img: "images/meridians 2/circulation.jpg",
     name: "circulation",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: [
       "meridian",
       "meridians",
@@ -1085,55 +1085,55 @@ export const dataObjects = [
   {
     img: "images/meridians 2/hormonal balance.jpg",
     name: "hormonal balance",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: ["meridian", "meridians", "hormonal", "hormone", "balance"],
   },
   {
     img: "images/meridians 2/kidney.jpg",
     name: "kidney",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: ["meridian", "meridians", "kidney", "organ", "organs"],
   },
   {
     img: "images/meridians 2/liver.jpg",
     name: "liver",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: ["meridian", "meridians", "liver", "organ", "organs"],
   },
   {
     img: "images/meridians 2/lungs.jpg",
     name: "lungs",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: ["meridian", "meridians", "lungs", "organ", "organs", "asthma"],
   },
   {
     img: "images/meridians 2/lymphatic system.jpg",
     name: "lymphatic system",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: ["meridian", "meridians", "lymphatic", "system"],
   },
   {
     img: "images/meridians 2/nerve meridian.jpg",
     name: "nerve meridian",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: ["meridian", "meridians", "nerve"],
   },
   {
     img: "images/meridians 2/organ meridian.jpg",
     name: "organ meridian",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: ["meridian", "meridians", "organ", "organs"],
   },
   {
     img: "images/meridians 2/spleen-pancreas.jpg",
     name: "spleen-pancreas",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: ["meridian", "meridians", "spleen", "pancreas", "organ", "organs"],
   },
   {
     img: "images/meridians 2/stomach.jpg",
     name: "stomach",
-    models: ["all", "holistic", "resonance", "resonance-plus", "pro"],
+    models: ["all", "holistic", "resonance", "plus", "pro"],
     tags: ["meridian", "meridians", "stomach", "organ", "organs"],
   },
   //MERIDIANS 2
@@ -1141,49 +1141,49 @@ export const dataObjects = [
   {
     img: "images/pain stim/III.jpg",
     name: "III",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["pain", "stimulation", "III"],
   },
   {
     img: "images/pain stim/IV.jpg",
     name: "IV",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["pain", "stimulation", "IV"],
   },
   {
     img: "images/pain stim/pain locally.jpg",
     name: "pain locally",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["pain", "stimulation", "locally", "local"],
   },
   {
     img: "images/pain stim/pain.jpg",
     name: "pain",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["pain", "stimulation"],
   },
   {
     img: "images/pain stim/V.jpg",
     name: "V",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["pain", "stimulation", "V"],
   },
   {
     img: "images/pain stim/VI.jpg",
     name: "VI",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["pain", "stimulation", "VI"],
   },
   {
     img: "images/pain stim/VII.jpg",
     name: "VII",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["pain", "stimulation", "VII"],
   },
   {
     img: "images/pain stim/VIII.jpg",
     name: "VIII",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["pain", "stimulation", "VIII"],
   },
   //PAIN STIM
@@ -1191,61 +1191,61 @@ export const dataObjects = [
   {
     img: "images/the power of three/conflict balance.jpg",
     name: "conflict balance",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["the", "power", "of", "three", "conflict", "balance"],
   },
   {
     img: "images/the power of three/defense support.jpg",
     name: "defense support",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["the", "power", "of", "three", "defense", "support"],
   },
   {
     img: "images/the power of three/friendly flora.jpg",
     name: "friendly flora",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["the", "power", "of", "three", "friendly", "flora"],
   },
   {
     img: "images/the power of three/kapha.jpg",
     name: "kapha",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["the", "power", "of", "three", "kapha"],
   },
   {
     img: "images/the power of three/pita.jpg",
     name: "pita",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["the", "power", "of", "three", "pita"],
   },
   {
     img: "images/the power of three/rebalance.jpg",
     name: "rebalance",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["the", "power", "of", "three", "rebalance", "asthma"],
   },
   {
     img: "images/the power of three/rife energetic.jpg",
     name: "rife energetic",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["the", "power", "of", "three", "rife", "energetic"],
   },
   {
     img: "images/the power of three/rife physical.jpg",
     name: "rife physical",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["the", "power", "of", "three", "rife", "physical", "asthma"],
   },
   {
     img: "images/the power of three/vata.jpg",
     name: "vata",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: ["the", "power", "of", "three", "vata", "asthma"],
   },
   {
     img: "images/the power of three/zapper protocol.jpg",
     name: "zapper protocol",
-    models: ["all", "resonance", "resonance-plus", "pro"],
+    models: ["all", "resonance", "plus", "pro"],
     tags: [
       "the",
       "power",
