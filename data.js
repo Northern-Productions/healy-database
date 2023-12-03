@@ -4,7 +4,7 @@ export const dataObjects = [
     img: "images/chakras/crown.jpg",
     name: "Crown Chakra",
     models: ["all", "resonance", "plus", "pro"],
-    modal: "images/modal content/crown modal.jpg",
+    modal: "images/modal content/chakra modal/crown modal.jpg",
     tags: [
       "crown",
       "head",
@@ -20,7 +20,7 @@ export const dataObjects = [
     img: "images/chakras/Third eye.jpg",
     name: "Third Eye Chakra",
     models: ["all", "resonance", "plus", "pro"],
-    modal: "images/modal content/third eye modal.jpg",
+    modal: "images/modal content/chakra modal/third eye modal.jpg",
     tags: [
       "third",
       "eye",
@@ -38,7 +38,7 @@ export const dataObjects = [
     img: "images/chakras/Throat.jpg",
     name: "Throat Chakra",
     models: ["all", "resonance", "plus", "pro"],
-    modal: "images/modal content/throat modal.jpg",
+    modal: "images/modal content/chakra modal/throat modal.jpg",
     tags: [
       "throat",
       "voice",
@@ -53,14 +53,14 @@ export const dataObjects = [
     img: "images/chakras/heart.jpg",
     name: "Heart Chakra",
     models: ["all", "resonance", "plus", "pro"],
-    modal: "images/modal content/heart modal.jpg",
+    modal: "images/modal content/chakra modal/heart modal.jpg",
     tags: ["heart", "love", "care", "compassion", "relation", "self", "chakra"],
   },
   {
     img: "images/chakras/solar.jpg",
     name: "Solar Plexus Chakra",
     models: ["all", "resonance", "plus", "pro"],
-    modal: "images/modal content/solar modal.jpg",
+    modal: "images/modal content/chakra modal/solar modal.jpg",
     tags: [
       "solar",
       "plexus",
@@ -79,7 +79,7 @@ export const dataObjects = [
     img: "images/chakras/sacral.jpg",
     name: "Sacral Chakra",
     models: ["all", "resonance", "plus", "pro"],
-    modal: "images/modal content/sacral modal.jpg",
+    modal: "images/modal content/chakra modal/sacral modal.jpg",
     tags: [
       "sacral",
       "creativity",
@@ -95,7 +95,7 @@ export const dataObjects = [
     img: "images/chakras/root.jpg",
     name: "Root Chakra",
     models: ["all", "resonance", "plus", "pro"],
-    modal: "images/modal content/root modal.jpg",
+    modal: "images/modal content/chakra modal/root modal.jpg",
     tags: [
       "root",
       "survival",
@@ -588,6 +588,7 @@ export const dataObjects = [
     img: "images/gold cycle/balance.jpg",
     name: "Balance",
     models: ["all", "gold", "plus", "pro"],
+    modal: "images/modal content/gold modal/gold balance modal.jpg",
     tags: [
       "balance",
       "stability",
@@ -602,6 +603,7 @@ export const dataObjects = [
     img: "images/gold cycle/being.jpg",
     name: "being",
     models: ["all", "gold", "plus", "pro"],
+    modal: "images/modal content/gold modal/gold being modal.jpg",
     tags: [
       "being",
       "now",
@@ -617,6 +619,7 @@ export const dataObjects = [
     img: "images/gold cycle/care.jpg",
     name: "care",
     models: ["all", "gold", "plus", "pro"],
+    modal: "images/modal content/gold modal/gold care modal.jpg",
     tags: [
       "care",
       "love",
@@ -632,6 +635,7 @@ export const dataObjects = [
     img: "images/gold cycle/energy.jpg",
     name: "energy",
     models: ["all", "gold", "plus", "pro"],
+    modal: "images/modal content/gold modal/gold energy modal.jpg",
     tags: [
       "energy",
       "pure",
@@ -646,6 +650,7 @@ export const dataObjects = [
     img: "images/gold cycle/pure.jpg",
     name: "pure",
     models: ["all", "gold", "plus", "pro"],
+    modal: "images/modal content/gold modal/gold pure modal.jpg",
     tags: [
       "pure",
       "impurities",
@@ -661,12 +666,14 @@ export const dataObjects = [
     img: "images/gold cycle/relax.jpg",
     name: "relax",
     models: ["all", "gold", "plus", "pro"],
+    modal: "images/modal content/gold modal/gold relax modal.jpg",
     tags: ["relax", "relaxing", "relaxation", "refresh", "calm", "peace"],
   },
   {
     img: "images/gold cycle/release.jpg",
     name: "release",
     models: ["all", "gold", "plus", "pro"],
+    modal: "images/modal content/gold modal/gold release modal.jpg",
     tags: [
       "release",
       "let",
