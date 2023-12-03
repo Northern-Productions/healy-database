@@ -429,13 +429,13 @@ export const dataObjects = [
   {
     img: "images/bioenergetic support/bioenergetic boost.jpg",
     name: "Bioenergetic Boost",
-    models: ["all", "gold", "plus", "pro"],
+    models: ["all", "gold", "holistic", "plus", "pro"],
     tags: ["bioenergetic support", "boost"],
   },
   {
     img: "images/bioenergetic support/coherence.jpg",
     name: "Coherence",
-    models: ["all", "gold", "plus", "pro"],
+    models: ["all", "gold", "holistic", "plus", "pro"],
     tags: [
       "bioenergetic support",
       "coherence",
@@ -722,7 +722,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/balance.jpg",
     name: "Balance",
-    models: ["all", "gold", "plus", "pro"],
+    models: ["all", "gold", "holistic", "plus", "pro"],
     modal: "images/modal content/gold modal/gold balance modal.jpg",
     tags: [
       "gold cycle",
@@ -740,7 +740,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/being.jpg",
     name: "being",
-    models: ["all", "gold", "plus", "pro"],
+    models: ["all", "gold", "holistic", "plus", "pro"],
     modal: "images/modal content/gold modal/gold being modal.jpg",
     tags: [
       "gold cycle",
@@ -759,7 +759,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/care.jpg",
     name: "care",
-    models: ["all", "gold", "plus", "pro"],
+    models: ["all", "gold", "holistic", "plus", "pro"],
     modal: "images/modal content/gold modal/gold care modal.jpg",
     tags: [
       "gold cycle",
@@ -778,7 +778,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/energy.jpg",
     name: "energy",
-    models: ["all", "gold", "plus", "pro"],
+    models: ["all", "gold", "holistic", "plus", "pro"],
     modal: "images/modal content/gold modal/gold energy modal.jpg",
     tags: [
       "gold cycle",
@@ -796,7 +796,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/pure.jpg",
     name: "pure",
-    models: ["all", "gold", "plus", "pro"],
+    models: ["all", "gold", "holistic", "plus", "pro"],
     modal: "images/modal content/gold modal/gold pure modal.jpg",
     tags: [
       "gold cycle",
@@ -815,7 +815,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/relax.jpg",
     name: "relax",
-    models: ["all", "gold", "plus", "pro"],
+    models: ["all", "gold", "holistic", "plus", "pro"],
     modal: "images/modal content/gold modal/gold relax modal.jpg",
     tags: [
       "gold cycle",
@@ -832,7 +832,7 @@ export const dataObjects = [
   {
     img: "images/gold cycle/release.jpg",
     name: "release",
-    models: ["all", "gold", "plus", "pro"],
+    models: ["all", "gold", "holistic", "plus", "pro"],
     modal: "images/modal content/gold modal/gold release modal.jpg",
     tags: [
       "gold cycle",

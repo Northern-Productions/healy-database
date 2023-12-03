@@ -2,6 +2,8 @@ import { dataObjects } from "./data.js";
 
 const allDataObjects = "[data-tags]";
 
+let availableCards = [];
+
 const healyModels = document.querySelectorAll(".healy");
 
 const searchBar = document.querySelector("#search");
@@ -24,13 +26,11 @@ function addData(data) {
 }
 
 //Filter data cards
-function filterCards(data) {
-  const searchContent = document.querySelectorAll(data);
-
+function filterCards() {
   searchBar.addEventListener("keyup", (input) => {
     const searchInput = input.target.value.toLowerCase().trim();
 
-    searchContent.forEach((card) => {
+    availableCards.forEach((card) => {
       if (card.dataset.tags.includes(searchInput)) {
         card.style.display = "block";
       } else {
@@ -54,14 +54,15 @@ function setActiveModel(model) {
 
       model.dataset.active = "active";
       model.classList.add("active");
-      searchBar.value = "";
+      availableCards = [];
     }
-    const availableCards = document.querySelectorAll(allDataObjects);
-    availableCards.forEach((obj) => {
-      if (obj.dataset.models.includes(model.id)) {
-        obj.style.display = "block";
+    const cards = document.querySelectorAll(allDataObjects);
+    cards.forEach((card) => {
+      if (card.dataset.models.includes(model.id)) {
+        card.style.display = "block";
+        availableCards.push(card);
       } else {
-        obj.style.display = "none";
+        card.style.display = "none";
       }
     });
   });
@@ -101,7 +102,7 @@ healyModels.forEach((model) => {
 });
 
 //Filter cards based on active healy model
-filterCards(allDataObjects);
+filterCards();
 
 //Make cards clickable to open and close info modal
 openCloseModal(dataObjects);
