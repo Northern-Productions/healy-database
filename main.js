@@ -29,8 +29,12 @@ function addData(data) {
 function filterCards() {
   searchBar.addEventListener("keyup", (input) => {
     const searchInput = input.target.value.toLowerCase().trim();
+    const displayedCards =
+      availableCards.length > 0
+        ? availableCards
+        : document.querySelectorAll(allDataObjects);
 
-    availableCards.forEach((card) => {
+    displayedCards.forEach((card) => {
       if (card.dataset.tags.includes(searchInput)) {
         card.style.display = "block";
       } else {
@@ -73,6 +77,7 @@ function openCloseModal(data) {
   data.forEach((card) => {
     if (card) {
       const getCard = document.getElementById(card.name);
+      const modalId = `popup-modal-${card.name}`;
       getCard.addEventListener("click", () => {
         const modalContainer = document.createElement("div");
         modalContainer.innerHTML = `
@@ -80,13 +85,15 @@ function openCloseModal(data) {
       <img src="${card.modal}">
       `;
         modalContainer.classList.add("modal-body");
-        modalContainer.id = "popup-modal";
+        modalContainer.id = modalId;
         dataContainer.appendChild(modalContainer);
 
-        const modal = document.getElementById("popup-modal");
-        const closeModal = document.querySelector("[data-close]");
-        closeModal.addEventListener("click", () => {
-          dataContainer.removeChild(modal);
+        const modal = document.getElementById(modalId);
+        const closeModalButtons = document.querySelectorAll("[data-close]");
+        closeModalButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            dataContainer.removeChild(modal);
+          });
         });
       });
     }
