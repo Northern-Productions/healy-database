@@ -250,6 +250,7 @@ export const dataObjects = [
       "woman",
       "lady",
       "ladies",
+      "cramps",
     ],
   },
   {
@@ -354,6 +355,7 @@ export const dataObjects = [
       "fog",
       "clarity",
       "focus",
+      "cold",
     ],
   },
   {
@@ -476,7 +478,7 @@ export const dataObjects = [
     models: ["all", "gold", "holistic", "plus", "pro"],
     modal:
       "images/modal content/bioenergetic support modal/bioenergetic boost.jpg",
-    tags: ["bioenergetic support", "boost"],
+    tags: ["bioenergetic support", "boost", "cold", "bioenergetic boost"],
   },
   {
     img: "images/bioenergetic support/coherence.jpg",
@@ -491,6 +493,7 @@ export const dataObjects = [
       "focus",
       "learn",
       "learning",
+      "anxiety",
     ],
   },
   //BIOENERGETIC SUPPORT
@@ -516,6 +519,7 @@ export const dataObjects = [
       "pure",
       "purify",
       "asthma",
+      "cold",
     ],
   },
   {
@@ -534,6 +538,10 @@ export const dataObjects = [
       "eating",
       "gi",
       "gastrointestinal",
+      "anxiety",
+      "emotion",
+      "emotions",
+      "emotional",
     ],
   },
   {
@@ -578,6 +586,7 @@ export const dataObjects = [
       "foundation",
       "beginning",
       "asthma",
+      "anxiety",
     ],
   },
   {
@@ -629,6 +638,7 @@ export const dataObjects = [
       "relaxing",
       "relief",
       "reliving",
+      "anxiety",
     ],
   },
   {
@@ -693,6 +703,7 @@ export const dataObjects = [
       "calm",
       "peace",
       "fitness",
+      "anxiety",
     ],
   },
   {
@@ -804,6 +815,7 @@ export const dataObjects = [
       "equal",
       "equilibrium",
       "asthma",
+      "anxiety",
     ],
   },
   {
@@ -823,6 +835,7 @@ export const dataObjects = [
       "center",
       "align",
       "alignment",
+      "anxiety",
     ],
   },
   {
@@ -843,6 +856,7 @@ export const dataObjects = [
       "nurture",
       "nurturing",
       "asthma",
+      "anxiety",
     ],
   },
   {
@@ -861,6 +875,7 @@ export const dataObjects = [
       "power",
       "strength",
       "strengthen",
+      "anxiety",
     ],
   },
   {
@@ -880,6 +895,7 @@ export const dataObjects = [
       "cleanse",
       "remove",
       "asthma",
+      "anxiety",
     ],
   },
   {
@@ -897,6 +913,7 @@ export const dataObjects = [
       "refresh",
       "calm",
       "peace",
+      "anxiety",
     ],
   },
   {
@@ -916,6 +933,8 @@ export const dataObjects = [
       "pure",
       "purify",
       "asthma",
+      "cramps",
+      "anxiety",
     ],
   },
   //FITNESS
@@ -1076,6 +1095,7 @@ export const dataObjects = [
       "relaxing",
       "calm",
       "calming",
+      "anxiety",
     ],
   },
   {
@@ -1094,6 +1114,7 @@ export const dataObjects = [
       "relaxing",
       "calm",
       "calming",
+      "anxiety",
     ],
   },
   //LEARNING
@@ -1112,6 +1133,7 @@ export const dataObjects = [
       "relax",
       "relaxing",
       "balance",
+      "anxiety",
     ],
   },
   {
@@ -1128,6 +1150,7 @@ export const dataObjects = [
       "relax",
       "relaxing",
       "balance",
+      "anxiety",
     ],
   },
   {
@@ -1144,6 +1167,7 @@ export const dataObjects = [
       "ease",
       "relax",
       "relaxing",
+      "anxiety",
     ],
   },
   {
@@ -1176,6 +1200,8 @@ export const dataObjects = [
       "strengthen",
       "fortify",
       "perseverance",
+      "anxiety",
+      "confidence",
     ],
   },
   {
@@ -1192,6 +1218,8 @@ export const dataObjects = [
       "connecting",
       "center",
       "balance",
+      "anxiety",
+      "confidence",
     ],
   },
   {
@@ -1229,6 +1257,7 @@ export const dataObjects = [
       "love",
       "relax",
       "relaxing",
+      "anxiety",
     ],
   },
   //MENTAL BALANCE
@@ -1482,7 +1511,15 @@ export const dataObjects = [
     name: "III",
     models: ["all", "resonance", "plus", "pro"],
     modal: "images/modal content/pain stim modal/anxiety VIII.jpg",
-    tags: ["pain", "painful", "hurt", "injury", "stimulation", "III"],
+    tags: [
+      "pain",
+      "painful",
+      "anxiety",
+      "hurt",
+      "injury",
+      "stimulation",
+      "III",
+    ],
   },
   {
     img: "images/pain stim/IV.jpg",
@@ -1504,6 +1541,7 @@ export const dataObjects = [
       "stimulation",
       "locally",
       "local",
+      "cramps",
     ],
   },
   {
@@ -1626,6 +1664,7 @@ export const dataObjects = [
       "protocol",
       "parasite",
       "parasite cleanse",
+      "cold",
     ],
   },
 ];
