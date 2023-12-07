@@ -35,11 +35,9 @@ function filterCards() {
         : document.querySelectorAll(allDataObjects);
 
     displayedCards.forEach((card) => {
-      if (card.dataset.tags.includes(searchInput)) {
-        card.style.display = "block";
-      } else {
-        card.style.display = "none";
-      }
+      card.dataset.tags.includes(searchInput)
+        ? (card.style.display = "block")
+        : (card.style.display = "none");
     });
   });
 }
