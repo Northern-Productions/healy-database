@@ -13,7 +13,8 @@ const dataContainer = document.querySelector(".data-ctn");
 //Add data objects to container
 function addData(data) {
   data.forEach((obj) => {
-    const objContainer = document.createElement("div");
+    const objContainer = document.createElement("button");
+    objContainer.tabIndex = "0";
     objContainer.innerHTML = `
     <img src="${obj.img}" alt="${obj.name}">
     `;
@@ -77,21 +78,28 @@ function openCloseModal(data) {
       const getCard = document.getElementById(card.name);
       const modalId = `popup-modal-${card.name}`;
       getCard.addEventListener("click", () => {
+        const modalBackground = document.createElement("div");
+        modalBackground.classList.add("modal-background");
         const modalContainer = document.createElement("div");
         modalContainer.innerHTML = `
       <div><i class="fas fa-times" data-close></i></div>
-      <img src="${card.modal}">
+      <img class="modal-img" src="${card.modal}">
       `;
         modalContainer.classList.add("modal-body");
         modalContainer.id = modalId;
-        dataContainer.appendChild(modalContainer);
+        dataContainer.appendChild(modalBackground);
+        modalBackground.appendChild(modalContainer);
 
-        const modal = document.getElementById(modalId);
         const closeModalButtons = document.querySelectorAll("[data-close]");
         closeModalButtons.forEach((button) => {
           button.addEventListener("click", () => {
-            dataContainer.removeChild(modal);
+            dataContainer.removeChild(modalBackground);
           });
+        });
+        document.addEventListener("click", (e) => {
+          if (e.target === modalBackground) {
+            dataContainer.removeChild(modalBackground);
+          }
         });
       });
     }
