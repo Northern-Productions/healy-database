@@ -118,6 +118,34 @@ export const dataObjects = [
   //CHAKRAS
   //SKIN AND BEAUTY
   {
+    img: "images/beauty and skin/aging.jpg",
+    name: "Aging",
+    models: ["pro"],
+    modal: "images/modal content/beauty and skin modal/aging.jpg",
+    tags: ["aging", "skin", "beauty", "age", "old", "wrinkle", "wrinkles"],
+  },
+  {
+    img: "images/beauty and skin/hair.jpg",
+    name: "Hair",
+    models: ["pro"],
+    modal: "images/modal content/beauty and skin modal/hair.jpg",
+    tags: ["hair", "beauty", "skin", "head", "scalp"],
+  },
+  {
+    img: "images/beauty and skin/Inner beauty.jpg",
+    name: "Inner Beauty",
+    models: ["pro"],
+    modal: "images/modal content/beauty and skin modal/inner beauty.jpg",
+    tags: ["inner", "beauty", "skin", "inner beauty"],
+  },
+  {
+    img: "images/beauty and skin/nails.jpg",
+    name: "Nail Harmony",
+    models: ["pro"],
+    modal: "images/modal content/beauty and skin modal/nail harmony.jpg",
+    tags: ["nails", "beauty", "skin", "nail"],
+  },
+  {
     img: "images/beauty and skin/scar harmony local.jpg",
     name: "Scar Harmony Local",
     models: ["all", "plus", "pro"],
@@ -138,6 +166,13 @@ export const dataObjects = [
       "harmony",
       "asthma",
     ],
+  },
+  {
+    img: "images/beauty and skin/skin elasticity.jpg",
+    name: "Skin Elasticity",
+    models: ["pro"],
+    modal: "images/modal content/beauty and skin modal/skin energy.jpg",
+    tags: ["Skin Elasticity", "skin", "elasticity", "beauty", "elastic"],
   },
   {
     img: "images/beauty and skin/skin harmony local.jpg",
@@ -168,8 +203,80 @@ export const dataObjects = [
       "purity",
     ],
   },
+  {
+    img: "images/beauty and skin/skin.jpg",
+    name: "Skin",
+    models: ["pro"],
+    modal: "images/modal content/beauty and skin modal/skin.jpg",
+    tags: ["beauty", "skin"],
+  },
   //SKIN AND BEAUTY
-  //BIOENERGETIC 1
+  //BIOENERGETIC DEFENSE
+  {
+    img: "images/bioenergetic defense/cell.jpg",
+    name: "Cell",
+    models: ["pro"],
+    modal: "images/modal content/bioenergetic defense modal/cell.jpg",
+    tags: ["cell", "cells", "bioenergetic defense"],
+  },
+  {
+    img: "images/bioenergetic defense/electrosensitivity.jpg",
+    name: "Electrosensitivity",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic defense modal/electrosensitivity.jpg",
+    tags: ["electrosensitivity", "bioenergetic defense"],
+  },
+  {
+    img: "images/bioenergetic defense/general protection.jpg",
+    name: "General Protection",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic defense modal/general protection.jpg",
+    tags: [
+      "general protection",
+      "general",
+      "protection",
+      "bioenergetic defense",
+    ],
+  },
+  {
+    img: "images/bioenergetic defense/geopathy.jpg",
+    name: "Geopathy",
+    models: ["pro"],
+    modal: "images/modal content/bioenergetic defense modal/geopathy.jpg",
+    tags: ["geopathy", "bioenergetic defense"],
+  },
+  {
+    img: "images/bioenergetic defense/mental.jpg",
+    name: "Mental",
+    models: ["pro"],
+    modal: "images/modal content/bioenergetic defense modal/mental.jpg",
+    tags: ["mental", "bioenergetic defense"],
+  },
+  {
+    img: "images/bioenergetic defense/planets.jpg",
+    name: "Planets",
+    models: ["pro"],
+    modal: "images/modal content/bioenergetic defense modal/planets.jpg",
+    tags: ["planets", "bioenergetic defense"],
+  },
+  {
+    img: "images/bioenergetic defense/sleeping.jpg",
+    name: "Sleeping",
+    models: ["pro"],
+    modal: "images/modal content/bioenergetic defense modal/sleeping.jpg",
+    tags: ["sleeping", "bioenergetic defense"],
+  },
+  {
+    img: "images/bioenergetic defense/subtle.jpg",
+    name: "Subtle",
+    models: ["pro"],
+    modal: "images/modal content/bioenergetic defense modal/subtle.jpg",
+    tags: ["subtle", "bioenergetic defense"],
+  },
+  //BIOENERGETIC DEFENSE
+  //BIOENERGETIC HARMONY 1
   {
     img: "images/bioenergetic harmony 1/circulation.jpg",
     name: "Circulation",
@@ -307,7 +414,7 @@ export const dataObjects = [
     modal: "images/modal content/bioenergetic harmony 1 modal/shiver.jpg",
     tags: ["bioenergetic harmony", "shiver", "cold", "chill"],
   },
-  //BIOENERGETIC 1
+  //BIOENERGETIC HARMONY 1
   //BIOENERGETIC 2
   {
     img: "images/bioenergetic harmony 2/bacteria harmony.jpg",
@@ -497,6 +604,102 @@ export const dataObjects = [
     ],
   },
   //BIOENERGETIC SUPPORT
+  //BIOENERGETIC VITALIZATION
+  {
+    img: "images/bioenergetic vitalisation/bones.jpg",
+    name: "Bones",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic vitalisation modal/bone harmony.jpg",
+    tags: ["bones", "bioenergetic vitalization"],
+  },
+  {
+    img: "images/bioenergetic vitalisation/cell.jpg",
+    name: "Cell",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic vitalisation modal/cell harmony.jpg",
+    tags: ["cell", "cells", "bioenergetic vitalization"],
+  },
+  {
+    img: "images/bioenergetic vitalisation/epigenetic harmonization.jpg",
+    name: "Epigenetic Harmonization",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic vitalisation modal/epigenetic harmonization.jpg",
+    tags: ["epigenetic", "harmonization", "bioenergetic vitalization"],
+  },
+  {
+    img: "images/bioenergetic vitalisation/holistic support.jpg",
+    name: "Holistic Support",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic vitalisation modal/holistic support.jpg",
+    tags: ["holistic", "support", "bioenergetic vitalization"],
+  },
+  {
+    img: "images/bioenergetic vitalisation/nerves.jpg",
+    name: "Nerve Harmony",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic vitalisation modal/nerve harmony.jpg",
+    tags: ["nerves", "harmony", "bioenergetic vitalization"],
+  },
+  {
+    img: "images/bioenergetic vitalisation/pineal gland.jpg",
+    name: "Pineal Gland Harmony",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic vitalisation modal/pineal gland harmony.jpg",
+    tags: ["pineal", "gland", "bioenergetic vitalization"],
+  },
+  {
+    img: "images/bioenergetic vitalisation/regeneration 1.jpg",
+    name: "Regeneration 1",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic vitalisation modal/regeneration 1.jpg",
+    tags: ["regeneration", "bioenergetic vitalization"],
+  },
+  {
+    img: "images/bioenergetic vitalisation/regeneration 2.jpg",
+    name: "Regeneration 2",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic vitalisation modal/regeneration 2.jpg",
+    tags: ["regeneration", "bioenergetic vitalization"],
+  },
+  {
+    img: "images/bioenergetic vitalisation/regeneration 3.jpg",
+    name: "Regeneration 3",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic vitalisation modal/regeneration 3.jpg",
+    tags: ["regeneration", "bioenergetic vitalization"],
+  },
+  {
+    img: "images/bioenergetic vitalisation/stability.jpg",
+    name: "Stability",
+    models: ["pro"],
+    modal: "images/modal content/bioenergetic vitalisation modal/stability.jpg",
+    tags: ["stability", "bioenergetic vitalization"],
+  },
+  {
+    img: "images/bioenergetic vitalisation/tissue.jpg",
+    name: "Tissue Harmony",
+    models: ["pro"],
+    modal:
+      "images/modal content/bioenergetic vitalisation modal/tissue harmony.jpg",
+    tags: ["tissue", "harmony", "bioenergetic vitalization"],
+  },
+  {
+    img: "images/bioenergetic vitalisation/youth.jpg",
+    name: "Youth",
+    models: ["pro"],
+    modal: "images/modal content/bioenergetic vitalisation modal/youth.jpg",
+    tags: ["youth", "bioenergetic vitalization"],
+  },
+  //BIOENERGETIC VITALIZATION
   //DEEP CYCLE H
   {
     img: "images/deep cycle H/breath of life.jpg",
@@ -681,6 +884,665 @@ export const dataObjects = [
     tags: ["deep cycle H", "sensitive", "sensitivity", "asthma"],
   },
   //DEEP CYCLE H
+  //DIGITAL NUTRITION MIXTURES 1
+  {
+    img: "images/digital nutrition mixtures 1/brain.jpg",
+    name: "Brain",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 1 modal/brain harmony.jpg",
+    tags: ["brain", "brain fog", "brainfog", "brain foggy", "brain foginess"],
+  },
+  {
+    img: "images/digital nutrition mixtures 1/ears.jpg",
+    name: "Ears",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 1 modal/ear harmony.jpg",
+    tags: [
+      "ears",
+      "ear",
+      "hearing",
+      "listen",
+      "listening",
+      "listen",
+      "listening",
+      "hearing loss",
+      "hearingloss",
+      "deaf",
+      "deafness",
+      "deafening",
+      "deafeningly",
+      "deafeningness",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 1/gastrointestinal system.jpg",
+    name: "Gastrointestinal System",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 1 modal/gastrointestinal harmony.jpg",
+    tags: [
+      "gastrointestinal system",
+      "gastrointestinal",
+      "gastro",
+      "gi",
+      "digest",
+      "digestion",
+      "digestive",
+      "digestive system",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 1/hair.jpg",
+    name: "Hair",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 1 modal/hair harmony.jpg",
+    tags: ["hair", "hair loss", "hairloss"],
+  },
+  {
+    img: "images/digital nutrition mixtures 1/head.jpg",
+    name: "Head",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 1 modal/head harmony.jpg",
+    tags: [
+      "head",
+      "headache",
+      "headaches",
+      "migraine",
+      "migraines",
+      "migraine",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 1/heart.jpg",
+    name: "Heart",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 1 modal/heart harmony.jpg",
+    tags: [
+      "heart",
+      "cardiovascular",
+      "cardiovascular system",
+      "cardio",
+      "cardiac",
+      "cardiac system",
+      "cardiac system",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 1/kidney.jpg",
+    name: "Kidney",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 1 modal/kidney harmony.jpg",
+    tags: ["kidney", "kidneys", "renal", "renal syst"],
+  },
+  {
+    img: "images/digital nutrition mixtures 1/muscles.jpg",
+    name: "Muscles",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 1 modal/muscle harmony.jpg",
+    tags: ["muscles", "muscle", "muscular", "muscular system"],
+  },
+  {
+    img: "images/digital nutrition mixtures 1/nails.jpg",
+    name: "Nails",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 1 modal/nail harmony.jpg",
+    tags: ["nails", "nail", "nailbed", "nail bed", "nailbeds", "nail beds"],
+  },
+  {
+    img: "images/digital nutrition mixtures 1/nerves.jpg",
+    name: "Nerves",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 1 modal/nerve harmony.jpg",
+    tags: ["nerves", "nerve", "nervous", "nervous system"],
+  },
+  {
+    img: "images/digital nutrition mixtures 1/skin.jpg",
+    name: "Skin",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 1 modal/skin harmony.jpg",
+    tags: ["skin", "skin care", "skincare"],
+  },
+  {
+    img: "images/digital nutrition mixtures 1/thyroid.jpg",
+    name: "Thyroid",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 1 modal/thyroid harmony.jpg",
+    tags: [
+      "thyroid",
+      "thyroid gland",
+      "thyroid glands",
+      "thyroidal",
+      "thyroidals",
+      "thyroidal gland",
+      "thyroidal glands",
+      "thyroidal system",
+      "thyroidal systems",
+      "thyroidal glandular",
+      "thyroidal glandulars",
+      "thyroidal glandular system",
+    ],
+  },
+  //DIGITAL NUTRITION MIXTURES 1
+  //DIGITAL NUTRITION MIXTURES 2
+  {
+    img: "images/digital nutrition mixtures 2/age.jpg",
+    name: "Age",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 2 modal/age.jpg",
+    tags: ["age", "aging", "ageless", "agelessness"],
+  },
+  {
+    img: "images/digital nutrition mixtures 2/alkaline powder.jpg",
+    name: "Alkaline Powder",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 2 modal/alkaline power.jpg",
+    tags: ["alkaline", "powder", "alkaline powder"],
+  },
+  {
+    img: "images/digital nutrition mixtures 2/amino acids.jpg",
+    name: "Amino Acids",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 2 modal/amino acids.jpg",
+    tags: ["amino acids", "amino acid", "amino", "acid", "acids"],
+  },
+  {
+    img: "images/digital nutrition mixtures 2/blood.jpg",
+    name: "Blood",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 2 modal/blood harmony.jpg",
+    tags: ["blood", "bloodstream", "circulation", "blood circulation"],
+  },
+  {
+    img: "images/digital nutrition mixtures 2/connective tissue.jpg",
+    name: "Connective Tissue",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 2 modal/connective tissue harmony.jpg",
+    tags: [
+      "connective tissue",
+      "connective",
+      "tissue",
+      "connective tissues",
+      "tissues",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 2/hypovitaminosis.jpg",
+    name: "Hypovitaminosis",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 2 modal/vitamin intake.jpg",
+    tags: ["vitamin", "vitamins", "nutrition", "hypovitaminosis"],
+  },
+  {
+    img: "images/digital nutrition mixtures 2/liver.jpg",
+    name: "Liver",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 2 modal/liver harmony.jpg",
+    tags: [
+      "liver",
+      "liver cleanse",
+      "liver cleanser",
+      "liver cleansing",
+      "liver detox",
+      "liver detoxification",
+      "liver detoxifier",
+      "liver detoxifiers",
+      "liver detoxify",
+      "liver detoxifying",
+      "liver detoxification",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 2/minerals.jpg",
+    name: "Minerals",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 2 modal/minerals.jpg",
+    tags: [
+      "minerals",
+      "mineral",
+      "mineralization",
+      "mineralize",
+      "mineralizing",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 2/trace elements.jpg",
+    name: "Trace Elements",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 2 modal/trace elements.jpg",
+    tags: ["trace elements", "trace element", "trace", "elements"],
+  },
+  {
+    img: "images/digital nutrition mixtures 2/vegan.jpg",
+    name: "Vegan",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 2 modal/vegan.jpg",
+    tags: ["vegan"],
+  },
+  {
+    img: "images/digital nutrition mixtures 2/vitamin b complex.jpg",
+    name: "Vitamin B Complex",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 2 modal/vitamin b complex.jpg",
+    tags: ["vitamin b complex", "vitamin b", "vitamin", "vitamins"],
+  },
+  {
+    img: "images/digital nutrition mixtures 2/weight.jpg",
+    name: "Weight",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 2 modal/weight.jpg",
+    tags: ["weight", "weight loss", "weightloss", "weight gain", "weightgain"],
+  },
+  //DIGITAL NUTRITION MIXTURES 2
+  //DIGITAL NUTRITION MIXTURES 3
+  {
+    img: "images/digital nutrition mixtures 3/2ry plant substances.jpg",
+    name: "2ry Plant Substances",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 3 modal/plant substances.jpg",
+    tags: ["plant", "substances", "plant substances", "2ry plant substances"],
+  },
+  {
+    img: "images/digital nutrition mixtures 3/alcohol intake.jpg",
+    name: "Alcohol Intake",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 3 modal/alcohol intake.jpg",
+    tags: ["alcohol", "intake", "alcohol intake"],
+  },
+  {
+    img: "images/digital nutrition mixtures 3/allergies.jpg",
+    name: "Allergies",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 3 modal/allergies.jpg",
+    tags: [
+      "allergies",
+      "allergy",
+      "allergic",
+      "allergic reaction",
+      "allergic reactions",
+      "allergic responses",
+      "allergic response",
+      "allergic sensitivity",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 3/antioxidant.jpg",
+    name: "Antioxidant",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 3 modal/antioxidants.jpg",
+    tags: ["antioxidant", "antioxidants"],
+  },
+  {
+    img: "images/digital nutrition mixtures 3/fertility.jpg",
+    name: "Fertility",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 3 modal/birth and fertility.jpg",
+    tags: ["fertility", "fertile"],
+  },
+  {
+    img: "images/digital nutrition mixtures 3/hormonal system.jpg",
+    name: "Hormonal System",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 3 modal/hormonal system harmony.jpg",
+    tags: [
+      "hormonal system",
+      "hormonal",
+      "hormone",
+      "hormones",
+      "hormone system",
+      "hormonal systems",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 3/immune system.jpg",
+    name: "Immune System",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 3 modal/defence and immune system.jpg",
+    tags: [
+      "immune system",
+      "immune",
+      "immunity",
+      "immunities",
+      "immune systems",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 3/libido.jpg",
+    name: "Libido",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 3 modal/libido.jpg",
+    tags: ["libido"],
+  },
+  {
+    img: "images/digital nutrition mixtures 3/lymphatic system.jpg",
+    name: "Lymphatic System",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 3 modal/lymphatic system harmony.jpg",
+    tags: [
+      "lymphatic system",
+      "lymphatic",
+      "lymph",
+      "lymph system",
+      "lymph systems",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 3/menstruation.jpg",
+    name: "Menstruation",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 3 modal/for women.jpg",
+    tags: [
+      "menstruation",
+      "moon",
+      "period",
+      "menstrual",
+      "menstrual cycle",
+      "menstrual cycles",
+      "menstrual period",
+      "menstrual periods",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 3/spirituality.jpg",
+    name: "Spirituality",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 3 modal/spirituality.jpg",
+    tags: [
+      "spirituality",
+      "spiritual",
+      "spirit",
+      "spiritualism",
+      "spiritualist",
+      "spiritualists",
+      "spiritualistic",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 3/toxins.jpg",
+    name: "Toxins",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 3 modal/impurities and toxins.jpg",
+    tags: [
+      "toxins",
+      "toxin",
+      "toxic",
+      "toxicity",
+      "toxicities",
+      "toxicity levels",
+      "toxicity level",
+      "toxic levels",
+      "toxic level",
+    ],
+  },
+  //DIGITAL NUTRITION MIXTURES 3
+  //DIGITAL NUTRITION MIXTURES 4
+  {
+    img: "images/digital nutrition mixtures 4/children.jpg",
+    name: "Children",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 4 modal/children.jpg",
+    tags: [
+      "children",
+      "child",
+      "kid",
+      "kids",
+      "baby",
+      "babies",
+      "infant",
+      "infants",
+      "toddler",
+      "toddlers",
+      "childhood",
+      "childhood development",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 4/energy.jpg",
+    name: "Energy",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 4 modal/energy.jpg",
+    tags: [
+      "energy",
+      "energetic",
+      "energize",
+      "energizing",
+      "energized",
+      "energization",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 4/eyesight.jpg",
+    name: "Eyesight",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 4 modal/eyesight.jpg",
+    tags: ["eyesight", "eyes", "eye", "vision", "see", "seeing", "sight"],
+  },
+  {
+    img: "images/digital nutrition mixtures 4/fatigue.jpg",
+    name: "Fatigue",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 4 modal/fatigue.jpg",
+    tags: [
+      "fatigue",
+      "tired",
+      "tiredness",
+      "exhaustion",
+      "exhausted",
+      "exhaust",
+      "exhausting",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 4/growth.jpg",
+    name: "Growth",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 4 modal/growth.jpg",
+    tags: ["growth", "grow", "growing", "develop", "developing", "development"],
+  },
+  {
+    img: "images/digital nutrition mixtures 4/men.jpg",
+    name: "Men",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 4 modal/men.jpg",
+    tags: ["men", "masculine", "male"],
+  },
+  {
+    img: "images/digital nutrition mixtures 4/psyche.jpg",
+    name: "Psyche",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 4 modal/psyche.jpg",
+    tags: [
+      "psyche",
+      "psychic",
+      "psychological",
+      "psychologically",
+      "psychology",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 4/regeneration.jpg",
+    name: "Regeneration",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 4 modal/regeneration.jpg",
+    tags: [
+      "regeneration",
+      "regenerate",
+      "renew",
+      "renewal",
+      "renewing",
+      "renewed",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 4/sleep.jpg",
+    name: "Sleep",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 4 modal/sleep.jpg",
+    tags: ["sleep", "sleeping", "sleepiness", "sleepy"],
+  },
+  {
+    img: "images/digital nutrition mixtures 4/sports.jpg",
+    name: "Sports",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 4 modal/sports.jpg",
+    tags: ["sports", "sport", "athletic", "athletics", "athlete"],
+  },
+  {
+    img: "images/digital nutrition mixtures 4/women.jpg",
+    name: "Women",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 4 modal/women.jpg",
+    tags: ["women", "feminine", "female"],
+  },
+  {
+    img: "images/digital nutrition mixtures 4/wounds.jpg",
+    name: "Wounds",
+    models: ["pro"],
+    modal:
+      "images/modal content/digital nutrition mix 4 modal/skin and wounds.jpg",
+    tags: ["wounds", "wound", "injury", "injuries"],
+  },
+  //DIGITAL NUTRITION MIXTURES 4
+  //DIGITAL NUTRITION MIXTURES 5
+  {
+    img: "images/digital nutrition mixtures 5/activation.jpg",
+    name: "Activation",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/activation.jpg",
+    tags: ["activation", "activate", "activating", "activated"],
+  },
+  {
+    img: "images/digital nutrition mixtures 5/breath.jpg",
+    name: "Breath",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/breath.jpg",
+    tags: ["breath", "breathe", "breathing", "breathwork", "breath work"],
+  },
+  {
+    img: "images/digital nutrition mixtures 5/circulation.jpg",
+    name: "Circulation",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/circulation.jpg",
+    tags: [
+      "circulation",
+      "circulate",
+      "flow",
+      "circulating",
+      "circulated",
+      "blood",
+      "blood circulation",
+      "blood flow",
+      "bloodstream",
+      "blood stream",
+      "circulatory system",
+      "circulatory systems",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 5/competition.jpg",
+    name: "Competition",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/competition.jpg",
+    tags: [
+      "competition",
+      "compete",
+      "competing",
+      "competitor",
+      "competitors",
+      "competitive",
+      "competitiveness",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 5/energetic.jpg",
+    name: "Energetic",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/energetic.jpg",
+    tags: [
+      "energetic",
+      "energy",
+      "energize",
+      "energizing",
+      "energized",
+      "energization",
+    ],
+  },
+  {
+    img: "images/digital nutrition mixtures 5/exertion.jpg",
+    name: "Exertion",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/exertion.jpg",
+    tags: ["exertion", "exert", "exerting", "exerted", "exertive"],
+  },
+  {
+    img: "images/digital nutrition mixtures 5/lifestyle.jpg",
+    name: "Lifestyle",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/lifestyle.jpg",
+    tags: ["lifestyle", "life", "style", "lifestyles"],
+  },
+  {
+    img: "images/digital nutrition mixtures 5/mobility.jpg",
+    name: "Mobility",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/mobility.jpg",
+    tags: ["mobility", "mobile", "move", "moving", "movement", "movements"],
+  },
+  {
+    img: "images/digital nutrition mixtures 5/motion.jpg",
+    name: "Motion",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/motion.jpg",
+    tags: ["motion", "move", "moving", "movement", "movements"],
+  },
+  {
+    img: "images/digital nutrition mixtures 5/reduction.jpg",
+    name: "Reduction",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/reduction.jpg",
+    tags: ["reduction", "reduce", "reducing", "reduced"],
+  },
+  {
+    img: "images/digital nutrition mixtures 5/regidity.jpg",
+    name: "Regidity",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/rigidity.jpg",
+    tags: ["rigidity", "rigid", "rigidness", "rigidly"],
+  },
+  {
+    img: "images/digital nutrition mixtures 5/structure.jpg",
+    name: "Structure",
+    models: ["pro"],
+    modal: "images/modal content/digital nutrition mix 5 modal/structure.jpg",
+    tags: ["structure", "structures", "structural", "structurally"],
+  },
+  //DIGITAL NUTRITION MIXTURES 5
   //FITNESS
   {
     img: "images/fitness/circulation.jpg",
@@ -940,10 +1802,41 @@ export const dataObjects = [
   //FITNESS
   //JOB AND SLEEP
   {
+    img: "images/job and sleep/activation.jpg",
+    name: "activation",
+    models: ["pro"],
+    modal: "images/modal content/job modal/activation.jpg",
+    tags: [
+      "job and sleep",
+      "sleep",
+      "job",
+      "activation",
+      "activate",
+      "activating",
+    ],
+  },
+  {
+    img: "images/job and sleep/balance nerves.jpg",
+    name: "balance nerves",
+    models: ["pro"],
+    modal: "images/modal content/job modal/balance sleep.jpg",
+    tags: [
+      "job and sleep",
+      "sleep",
+      "job",
+      "balance",
+      "nerves",
+      "nerve",
+      "nervous",
+      "nervousness",
+      "nervous systems",
+    ],
+  },
+  {
     img: "images/job and sleep/balanced sleep.jpg",
     name: "balanced sleep",
     models: ["all", "resonance", "plus", "pro"],
-    modal: "images/modal content/job modal/balance sleep.jpg",
+    modal: "images/modal content/sleep modal/balanced sleep.jpg",
     tags: [
       "job and sleep",
       "job",
@@ -973,6 +1866,81 @@ export const dataObjects = [
     ],
   },
   {
+    img: "images/job and sleep/exhaustion acute.jpg",
+    name: "exhaustion acute",
+    models: ["pro"],
+    modal: "images/modal content/job modal/exhaustion acute.jpg",
+    tags: [
+      "exhaustion",
+      "acute",
+      "job and sleep",
+      "job",
+      "sleep",
+      "exhaust",
+      "exhausted",
+      "exhausting",
+      "exhaustion",
+      "exhaustive",
+      "acute exhaustion",
+    ],
+  },
+  {
+    img: "images/job and sleep/exhaustion system.jpg",
+    name: "exhaustion systemic",
+    models: ["pro"],
+    modal: "images/modal content/job modal/exhaustion system.jpg",
+    tags: [
+      "exhaustion",
+      "systemic",
+      "job and sleep",
+      "job",
+      "sleep",
+      "exhaust",
+      "exhausted",
+      "exhausting",
+      "exhaustion",
+      "exhaustive",
+      "systemic exhaustion",
+    ],
+  },
+  {
+    img: "images/job and sleep/extreme stress.jpg",
+    name: "extreme stress",
+    models: ["pro"],
+    modal: "images/modal content/job modal/extreme tension.jpg",
+    tags: [
+      "extreme",
+      "stress",
+      "stressful",
+      "job and sleep",
+      "job",
+      "sleep",
+      "extreme stress",
+      "extremely stressful",
+      "extremely stressed",
+    ],
+  },
+  {
+    img: "images/job and sleep/fatigue.jpg",
+    name: "fatigue",
+    models: ["pro"],
+    modal: "images/modal content/job modal/fatigue.jpg",
+    tags: [
+      "fatigue",
+      "tired",
+      "tiredness",
+      "exhaustion",
+      "exhausted",
+      "exhaust",
+      "exhausting",
+      "job and sleep",
+      "job",
+      "sleep",
+      "fatigue",
+      "fatigued",
+    ],
+  },
+  {
     img: "images/job and sleep/fine flow.jpg",
     name: "fine flow",
     models: ["all", "resonance", "plus", "pro"],
@@ -987,6 +1955,22 @@ export const dataObjects = [
       "performance",
       "refined",
       "optimal",
+    ],
+  },
+  {
+    img: "images/job and sleep/positive thoughts.jpg",
+    name: "positive thoughts",
+    models: ["pro"],
+    modal: "images/modal content/job modal/positive thoughts.jpg",
+    tags: [
+      "positive",
+      "thoughts",
+      "job and sleep",
+      "job",
+      "sleep",
+      "positive thoughts",
+      "positivity",
+      "positive thinking",
     ],
   },
   {
