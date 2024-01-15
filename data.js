@@ -934,7 +934,7 @@ export const dataObjects = [
   },
   {
     img: "images/digital nutrition mixtures 1/hair.jpg",
-    name: "Hair",
+    name: "Hair harmony",
     models: ["pro"],
     modal:
       "images/modal content/digital nutrition mix 1 modal/hair harmony.jpg",
