@@ -205,7 +205,7 @@ export const dataObjects = [
   },
   {
     img: "images/beauty and skin/skin.jpg",
-    name: "Skin",
+    name: "Beauty Skin",
     models: ["pro"],
     modal: "images/modal content/beauty and skin modal/skin.jpg",
     tags: ["beauty", "skin"],
@@ -214,7 +214,7 @@ export const dataObjects = [
   //BIOENERGETIC DEFENSE
   {
     img: "images/bioenergetic defense/cell.jpg",
-    name: "Cell",
+    name: "Bio Defense Cell",
     models: ["pro"],
     modal: "images/modal content/bioenergetic defense modal/cell.jpg",
     tags: ["cell", "cells", "bioenergetic defense"],
@@ -278,10 +278,11 @@ export const dataObjects = [
   //BIOENERGETIC DEFENSE
   //BIOENERGETIC HARMONY 1
   {
-    img: "images/bioenergetic harmony 1/circulation.jpg",
-    name: "Circulation",
+    img: "images/bioenergetic harmony 1/bio harmony circulation.jpg",
+    name: "Bio Harmony Circulation",
     models: ["all", "holistic", "plus", "pro"],
-    modal: "images/modal content/bioenergetic harmony 1 modal/circulation.jpg",
+    modal:
+      "images/modal content/bioenergetic harmony 1 modal/bio harmony circulation.jpg",
     tags: ["bioenergetic harmony", "blood", "circulation", "asthma"],
   },
   {
@@ -387,7 +388,7 @@ export const dataObjects = [
   },
   {
     img: "images/bioenergetic harmony 1/nerve harmony.jpg",
-    name: "Nerve Harmony",
+    name: "Bio Harmony Nerve Harmony",
     models: ["all", "holistic", "plus", "pro"],
     modal:
       "images/modal content/bioenergetic harmony 1 modal/nerve harmony.jpg",
@@ -615,7 +616,7 @@ export const dataObjects = [
   },
   {
     img: "images/bioenergetic vitalisation/cell.jpg",
-    name: "Cell",
+    name: "Bio Vitalization Cell",
     models: ["pro"],
     modal:
       "images/modal content/bioenergetic vitalisation modal/cell harmony.jpg",
@@ -639,7 +640,7 @@ export const dataObjects = [
   },
   {
     img: "images/bioenergetic vitalisation/nerves.jpg",
-    name: "Nerve Harmony",
+    name: "Bio Vitalisation Nerve Harmony",
     models: ["pro"],
     modal:
       "images/modal content/bioenergetic vitalisation modal/nerve harmony.jpg",
@@ -1005,7 +1006,7 @@ export const dataObjects = [
   },
   {
     img: "images/digital nutrition mixtures 1/skin.jpg",
-    name: "Skin",
+    name: "Digital Nutrition Skin",
     models: ["pro"],
     modal:
       "images/modal content/digital nutrition mix 1 modal/skin harmony.jpg",
@@ -1144,7 +1145,7 @@ export const dataObjects = [
   },
   {
     img: "images/digital nutrition mixtures 2/weight.jpg",
-    name: "Weight",
+    name: "Digital Nutrition Weight",
     models: ["pro"],
     modal: "images/modal content/digital nutrition mix 2 modal/weight.jpg",
     tags: ["weight", "weight loss", "weightloss", "weight gain", "weightgain"],
@@ -1386,7 +1387,7 @@ export const dataObjects = [
   },
   {
     img: "images/digital nutrition mixtures 4/regeneration.jpg",
-    name: "Regeneration",
+    name: "Digital Nutrition Regeneration",
     models: ["pro"],
     modal:
       "images/modal content/digital nutrition mix 4 modal/regeneration.jpg",
@@ -1445,10 +1446,11 @@ export const dataObjects = [
     tags: ["breath", "breathe", "breathing", "breathwork", "breath work"],
   },
   {
-    img: "images/digital nutrition mixtures 5/circulation.jpg",
-    name: "Circulation",
+    img: "images/digital nutrition mixtures 5/digital nutrition circulation.jpg",
+    name: "Digital Nutrition Circulation",
     models: ["pro"],
-    modal: "images/modal content/digital nutrition mix 5 modal/circulation.jpg",
+    modal:
+      "images/modal content/digital nutrition mix 5 modal/digital nutrition circulation.jpg",
     tags: [
       "circulation",
       "circulate",
@@ -1545,10 +1547,10 @@ export const dataObjects = [
   //DIGITAL NUTRITION MIXTURES 5
   //FITNESS
   {
-    img: "images/fitness/circulation.jpg",
-    name: "Circulation",
+    img: "images/fitness/fitness circulation.jpg",
+    name: "Fitness Circulation",
     models: ["all", "resonance", "plus", "pro"],
-    modal: "images/modal content/fitness modal/circulation.jpg",
+    modal: "images/modal content/fitness modal/fitness circulation.jpg",
     tags: ["fitness", "circulation", "circulate", "flow", "fitness"],
   },
   {
@@ -1604,7 +1606,7 @@ export const dataObjects = [
   },
   {
     img: "images/fitness/regeneration.jpg",
-    name: "Regeneration",
+    name: "Fitness Regeneration",
     models: ["all", "resonance", "plus", "pro"],
     modal: "images/modal content/fitness modal/regeneration.jpg",
     tags: [
@@ -1645,7 +1647,7 @@ export const dataObjects = [
   },
   {
     img: "images/fitness/weight.jpg",
-    name: "Weight",
+    name: "Fitness Weight",
     models: ["all", "resonance", "plus", "pro"],
     modal: "images/modal content/fitness modal/weight.jpg",
     tags: [
@@ -2412,10 +2414,10 @@ export const dataObjects = [
   //MERIDIANS 1
   //MERIDIANS 2
   {
-    img: "images/meridians 2/circulation.jpg",
-    name: "circulation",
+    img: "images/meridians 2/meridian circulation.jpg",
+    name: "Meridian circulation",
     models: ["all", "holistic", "resonance", "plus", "pro"],
-    modal: "images/modal content/meridians 2 modal/circulation.jpg",
+    modal: "images/modal content/meridians 2 modal/meridian circulation.jpg",
     tags: [
       "meridian",
       "meridians",

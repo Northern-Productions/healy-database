@@ -74,35 +74,33 @@ function setActiveModel(model) {
 //Make cards clickable to open and close modal
 function openCloseModal(data) {
   data.forEach((card) => {
-    if (card) {
-      const getCard = document.getElementById(card.name);
-      const modalId = `popup-modal-${card.name}`;
-      getCard.addEventListener("click", () => {
-        const modalBackground = document.createElement("div");
-        modalBackground.classList.add("modal-background");
-        const modalContainer = document.createElement("div");
-        modalContainer.innerHTML = `
+    const getCard = document.getElementById(card.name);
+    const modalId = `popup-modal-${card.name}`;
+    getCard.addEventListener("click", () => {
+      const modalBackground = document.createElement("div");
+      modalBackground.classList.add("modal-background");
+      const modalContainer = document.createElement("div");
+      modalContainer.innerHTML = `
       <div><i class="fas fa-times" data-close></i></div>
       <img class="modal-img" src="${card.modal}">
       `;
-        modalContainer.classList.add("modal-body");
-        modalContainer.id = modalId;
-        dataContainer.appendChild(modalBackground);
-        modalBackground.appendChild(modalContainer);
+      modalContainer.classList.add("modal-body");
+      modalContainer.id = modalId;
+      dataContainer.appendChild(modalBackground);
+      modalBackground.appendChild(modalContainer);
 
-        const closeModalButtons = document.querySelectorAll("[data-close]");
-        closeModalButtons.forEach((button) => {
-          button.addEventListener("click", () => {
-            dataContainer.removeChild(modalBackground);
-          });
-        });
-        document.addEventListener("click", (e) => {
-          if (e.target === modalBackground) {
-            dataContainer.removeChild(modalBackground);
-          }
+      const closeModalButtons = document.querySelectorAll("[data-close]");
+      closeModalButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          dataContainer.removeChild(modalBackground);
         });
       });
-    }
+      document.addEventListener("click", (e) => {
+        if (e.target === modalBackground) {
+          dataContainer.removeChild(modalBackground);
+        }
+      });
+    });
   });
 }
 
