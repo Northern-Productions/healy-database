@@ -252,7 +252,7 @@ export const dataObjects = [
     name: "Mental",
     models: ["pro"],
     modal: "images/modal content/bioenergetic defense modal/mental.jpg",
-    tags: ["mental", "bioenergetic defense"],
+    tags: ["mental", "bioenergetic defense", "mind"],
   },
   {
     img: "images/bioenergetic defense/planets.jpg",
@@ -283,7 +283,7 @@ export const dataObjects = [
     models: ["all", "holistic", "plus", "pro"],
     modal:
       "images/modal content/bioenergetic harmony 1 modal/bio harmony circulation.jpg",
-    tags: ["bioenergetic harmony", "blood", "circulation", "asthma"],
+    tags: ["bioenergetic harmony", "blood", "circulation", "asthma", "body"],
   },
   {
     img: "images/bioenergetic harmony 1/defense.jpg",
@@ -324,6 +324,7 @@ export const dataObjects = [
       "flexible",
       "stretch",
       "move",
+      "body",
     ],
   },
   {
@@ -498,6 +499,7 @@ export const dataObjects = [
       "frame",
       "foundation",
       "flexibility",
+      "body",
     ],
   },
   {
@@ -1063,7 +1065,7 @@ export const dataObjects = [
     models: ["pro"],
     modal:
       "images/modal content/digital nutrition mix 2 modal/blood harmony.jpg",
-    tags: ["blood", "bloodstream", "circulation", "blood circulation"],
+    tags: ["blood", "bloodstream", "circulation", "blood circulation", "body"],
   },
   {
     img: "images/digital nutrition mixtures 2/connective tissue.jpg",
@@ -1464,6 +1466,7 @@ export const dataObjects = [
       "blood stream",
       "circulatory system",
       "circulatory systems",
+      "body",
     ],
   },
   {
@@ -1551,7 +1554,7 @@ export const dataObjects = [
     name: "Fitness Circulation",
     models: ["all", "resonance", "plus", "pro"],
     modal: "images/modal content/fitness modal/fitness circulation.jpg",
-    tags: ["fitness", "circulation", "circulate", "flow", "fitness"],
+    tags: ["fitness", "circulation", "circulate", "flow", "fitness", "body"],
   },
   {
     img: "images/fitness/deep relaxation.jpg",
@@ -2120,6 +2123,7 @@ export const dataObjects = [
       "relaxing",
       "balance",
       "anxiety",
+      "mind",
     ],
   },
   {
@@ -2137,6 +2141,7 @@ export const dataObjects = [
       "relaxing",
       "balance",
       "anxiety",
+      "mind",
     ],
   },
   {
@@ -2154,6 +2159,7 @@ export const dataObjects = [
       "relax",
       "relaxing",
       "anxiety",
+      "mind",
     ],
   },
   {
@@ -2170,6 +2176,7 @@ export const dataObjects = [
       "calm",
       "enjoy",
       "enjoyment",
+      "mind",
     ],
   },
   {
@@ -2188,6 +2195,7 @@ export const dataObjects = [
       "perseverance",
       "anxiety",
       "confidence",
+      "mind",
     ],
   },
   {
@@ -2206,6 +2214,7 @@ export const dataObjects = [
       "balance",
       "anxiety",
       "confidence",
+      "mind",
     ],
   },
   {
@@ -2225,6 +2234,7 @@ export const dataObjects = [
       "center",
       "equal",
       "equilibrium",
+      "mind",
     ],
   },
   {
@@ -2244,6 +2254,7 @@ export const dataObjects = [
       "relax",
       "relaxing",
       "anxiety",
+      "mind",
     ],
   },
   //MENTAL BALANCE
@@ -2365,6 +2376,7 @@ export const dataObjects = [
       "arthritis",
       "meridian",
       "meridians",
+      "body",
     ],
   },
   {
@@ -2425,6 +2437,7 @@ export const dataObjects = [
       "blood",
       "circulate",
       "flow",
+      "body",
     ],
   },
   {
