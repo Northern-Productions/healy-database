@@ -2615,7 +2615,7 @@ export const dataObjects = [
     img: "images/the power of three/pita.jpg",
     name: "pita",
     models: ["all", "resonance", "plus", "pro"],
-    modal: "images/modal content/power of three digital modal/pitta.jpg",
+    modal: "images/modal content/power of three digital modal/pita.jpg",
     tags: ["the", "power", "of", "three", "pita"],
   },
   {
