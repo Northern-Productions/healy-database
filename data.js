@@ -187,6 +187,7 @@ export const dataObjects = [
       "harmony",
       "itching",
       "rash",
+      "inflammation",
     ],
   },
   {
@@ -202,6 +203,7 @@ export const dataObjects = [
       "systemic",
       "itching",
       "rash",
+      "inflammation",
     ],
   },
   {
@@ -219,6 +221,7 @@ export const dataObjects = [
       "purity",
       "itching",
       "rash",
+      "inflammation",
     ],
   },
   {
@@ -226,7 +229,7 @@ export const dataObjects = [
     name: "Beauty Skin",
     models: ["pro"],
     modal: "images/modal content/beauty and skin modal/skin.jpg",
-    tags: ["beauty", "skin", "itching", "rash"],
+    tags: ["beauty", "skin", "itching", "rash", "inflammation"],
   },
   //SKIN AND BEAUTY
   //BIOENERGETIC DEFENSE
@@ -301,7 +304,14 @@ export const dataObjects = [
     models: ["all", "holistic", "plus", "pro"],
     modal:
       "images/modal content/bioenergetic harmony 1 modal/bio harmony circulation.jpg",
-    tags: ["bioenergetic harmony", "blood", "circulation", "asthma", "body"],
+    tags: [
+      "bioenergetic harmony",
+      "blood",
+      "circulation",
+      "asthma",
+      "body",
+      "inflammation",
+    ],
   },
   {
     img: "images/bioenergetic harmony 1/defense.jpg",
@@ -314,6 +324,7 @@ export const dataObjects = [
       "shield",
       "resistance",
       "immunity",
+      "inflammation",
     ],
   },
   {
@@ -405,6 +416,7 @@ export const dataObjects = [
       "digestion",
       "candida",
       "yeast",
+      "inflammation",
     ],
   },
   {
@@ -413,7 +425,7 @@ export const dataObjects = [
     models: ["all", "holistic", "plus", "pro"],
     modal:
       "images/modal content/bioenergetic harmony 1 modal/nerve harmony.jpg",
-    tags: ["bioenergetic harmony", "nerve", "harmony"],
+    tags: ["bioenergetic harmony", "nerve", "harmony", "inflammation"],
   },
   {
     img: "images/bioenergetic harmony 1/potency.jpg",
@@ -427,7 +439,13 @@ export const dataObjects = [
     name: "Sensitivity",
     models: ["all", "holistic", "plus", "pro"],
     modal: "images/modal content/bioenergetic harmony 1 modal/sensitivity.jpg",
-    tags: ["bioenergetic harmony", "sensitivity", "sensitive", "asthma"],
+    tags: [
+      "bioenergetic harmony",
+      "sensitivity",
+      "sensitive",
+      "asthma",
+      "inflammation",
+    ],
   },
   {
     img: "images/bioenergetic harmony 1/shiver.jpg",
@@ -476,6 +494,7 @@ export const dataObjects = [
       "digest",
       "candida",
       "yeast",
+      "inflammation",
     ],
   },
   {
@@ -512,6 +531,7 @@ export const dataObjects = [
       "clear",
       "cleanse",
       "remove",
+      "inflammation",
     ],
   },
   {
@@ -531,6 +551,7 @@ export const dataObjects = [
       "foundation",
       "flexibility",
       "body",
+      "inflammation",
     ],
   },
   {
@@ -593,7 +614,14 @@ export const dataObjects = [
     models: ["all", "holistic", "plus", "pro"],
     modal:
       "images/modal content/bioenergetic harmony 2 modal/sciatica nerve harmony local.jpg",
-    tags: ["bioenergetic harmony", "sciatica", "nerve", "harmony", "local"],
+    tags: [
+      "bioenergetic harmony",
+      "sciatica",
+      "nerve",
+      "harmony",
+      "local",
+      "inflammation",
+    ],
   },
   {
     img: "images/bioenergetic harmony 2/thyroid gland harmony.jpg",
@@ -619,7 +647,13 @@ export const dataObjects = [
     models: ["all", "gold", "holistic", "plus", "pro"],
     modal:
       "images/modal content/bioenergetic support modal/bioenergetic boost.jpg",
-    tags: ["bioenergetic support", "boost", "cold", "bioenergetic boost"],
+    tags: [
+      "bioenergetic support",
+      "boost",
+      "cold",
+      "bioenergetic boost",
+      "inflammation",
+    ],
   },
   {
     img: "images/bioenergetic support/coherence.jpg",
@@ -640,97 +674,156 @@ export const dataObjects = [
   //BIOENERGETIC SUPPORT
   //BIOENERGETIC VITALIZATION
   {
-    img: "images/bioenergetic vitalisation/bones.jpg",
+    img: "images/bioenergetic vitalization/bones.jpg",
     name: "Bones",
     models: ["pro"],
     modal:
-      "images/modal content/bioenergetic vitalisation modal/bone harmony.jpg",
+      "images/modal content/bioenergetic vitalization modal/bone harmony.jpg",
     tags: ["bones", "bioenergetic vitalization"],
   },
   {
-    img: "images/bioenergetic vitalisation/cell.jpg",
+    img: "images/bioenergetic vitalization/cell.jpg",
     name: "Bio Vitalization Cell",
     models: ["pro"],
     modal:
-      "images/modal content/bioenergetic vitalisation modal/cell harmony.jpg",
-    tags: ["cell", "cells", "bioenergetic vitalization"],
+      "images/modal content/bioenergetic vitalization modal/cell harmony.jpg",
+    tags: [
+      "cell",
+      "cells",
+      "bioenergetic vitalization",
+      "bio",
+      "bioenergetic",
+      "inflammation",
+    ],
   },
   {
-    img: "images/bioenergetic vitalisation/epigenetic harmonization.jpg",
+    img: "images/bioenergetic vitalization/epigenetic harmonization.jpg",
     name: "Epigenetic Harmonization",
     models: ["pro"],
     modal:
-      "images/modal content/bioenergetic vitalisation modal/epigenetic harmonization.jpg",
-    tags: ["epigenetic", "harmonization", "bioenergetic vitalization"],
+      "images/modal content/bioenergetic vitalization modal/epigenetic harmonization.jpg",
+    tags: [
+      "epigenetic",
+      "harmonization",
+      "bioenergetic vitalization",
+      "bio",
+      "bioenergetic",
+      "inflammation",
+    ],
   },
   {
-    img: "images/bioenergetic vitalisation/holistic support.jpg",
+    img: "images/bioenergetic vitalization/holistic support.jpg",
     name: "Holistic Support",
     models: ["pro"],
     modal:
-      "images/modal content/bioenergetic vitalisation modal/holistic support.jpg",
-    tags: ["holistic", "support", "bioenergetic vitalization"],
+      "images/modal content/bioenergetic vitalization modal/holistic support.jpg",
+    tags: [
+      "holistic",
+      "support",
+      "bioenergetic vitalization",
+      "bio",
+      "bioenergetic",
+      "inflammation",
+    ],
   },
   {
-    img: "images/bioenergetic vitalisation/nerves.jpg",
-    name: "Bio Vitalisation Nerve Harmony",
+    img: "images/bioenergetic vitalization/nerves.jpg",
+    name: "Bio Vitalization Nerve Harmony",
     models: ["pro"],
     modal:
-      "images/modal content/bioenergetic vitalisation modal/nerve harmony.jpg",
-    tags: ["nerves", "harmony", "bioenergetic vitalization"],
+      "images/modal content/bioenergetic vitalization modal/nerve harmony.jpg",
+    tags: [
+      "nerves",
+      "harmony",
+      "bioenergetic vitalization",
+      "bio",
+      "bioenergetic",
+      "inflammation",
+    ],
   },
   {
-    img: "images/bioenergetic vitalisation/pineal gland.jpg",
+    img: "images/bioenergetic vitalization/pineal gland.jpg",
     name: "Pineal Gland Harmony",
     models: ["pro"],
     modal:
-      "images/modal content/bioenergetic vitalisation modal/pineal gland harmony.jpg",
+      "images/modal content/bioenergetic vitalization modal/pineal gland harmony.jpg",
     tags: ["pineal", "gland", "bioenergetic vitalization"],
   },
   {
-    img: "images/bioenergetic vitalisation/regeneration 1.jpg",
+    img: "images/bioenergetic vitalization/regeneration 1.jpg",
     name: "Regeneration 1",
     models: ["pro"],
     modal:
-      "images/modal content/bioenergetic vitalisation modal/regeneration 1.jpg",
-    tags: ["regeneration", "bioenergetic vitalization"],
+      "images/modal content/bioenergetic vitalization modal/regeneration 1.jpg",
+    tags: [
+      "regeneration",
+      "bioenergetic vitalization",
+      "bio",
+      "bioenergetic",
+      "inflammation",
+    ],
   },
   {
-    img: "images/bioenergetic vitalisation/regeneration 2.jpg",
+    img: "images/bioenergetic vitalization/regeneration 2.jpg",
     name: "Regeneration 2",
     models: ["pro"],
     modal:
-      "images/modal content/bioenergetic vitalisation modal/regeneration 2.jpg",
-    tags: ["regeneration", "bioenergetic vitalization"],
+      "images/modal content/bioenergetic vitalization modal/regeneration 2.jpg",
+    tags: [
+      "regeneration",
+      "bioenergetic vitalization",
+      "bio",
+      "bioenergetic",
+      "inflammation",
+    ],
   },
   {
-    img: "images/bioenergetic vitalisation/regeneration 3.jpg",
+    img: "images/bioenergetic vitalization/regeneration 3.jpg",
     name: "Regeneration 3",
     models: ["pro"],
     modal:
-      "images/modal content/bioenergetic vitalisation modal/regeneration 3.jpg",
-    tags: ["regeneration", "bioenergetic vitalization"],
+      "images/modal content/bioenergetic vitalization modal/regeneration 3.jpg",
+    tags: [
+      "regeneration",
+      "bioenergetic vitalization",
+      "bio",
+      "bioenergetic",
+      "inflammation",
+    ],
   },
   {
-    img: "images/bioenergetic vitalisation/stability.jpg",
+    img: "images/bioenergetic vitalization/stability.jpg",
     name: "Stability",
     models: ["pro"],
-    modal: "images/modal content/bioenergetic vitalisation modal/stability.jpg",
-    tags: ["stability", "bioenergetic vitalization"],
+    modal: "images/modal content/bioenergetic vitalization modal/stability.jpg",
+    tags: [
+      "stability",
+      "bioenergetic vitalization",
+      "bio",
+      "bioenergetic",
+      "inflammation",
+    ],
   },
   {
-    img: "images/bioenergetic vitalisation/tissue.jpg",
+    img: "images/bioenergetic vitalization/tissue.jpg",
     name: "Tissue Harmony",
     models: ["pro"],
     modal:
-      "images/modal content/bioenergetic vitalisation modal/tissue harmony.jpg",
-    tags: ["tissue", "harmony", "bioenergetic vitalization"],
+      "images/modal content/bioenergetic vitalization modal/tissue harmony.jpg",
+    tags: [
+      "tissue",
+      "harmony",
+      "bioenergetic vitalization",
+      "bio",
+      "bioenergetic",
+      "inflammation",
+    ],
   },
   {
-    img: "images/bioenergetic vitalisation/youth.jpg",
+    img: "images/bioenergetic vitalization/youth.jpg",
     name: "Youth",
     models: ["pro"],
-    modal: "images/modal content/bioenergetic vitalisation modal/youth.jpg",
+    modal: "images/modal content/bioenergetic vitalization modal/youth.jpg",
     tags: ["youth", "bioenergetic vitalization"],
   },
   //BIOENERGETIC VITALIZATION
@@ -757,6 +850,9 @@ export const dataObjects = [
       "purify",
       "asthma",
       "cold",
+      "itching",
+      "rash",
+      "inflammation",
     ],
   },
   {
@@ -910,6 +1006,9 @@ export const dataObjects = [
       "refresh",
       "clean",
       "cleanse",
+      "itching",
+      "rash",
+      "inflammation",
     ],
   },
   {
@@ -917,7 +1016,15 @@ export const dataObjects = [
     name: "Sensitive",
     models: ["all", "plus", "pro"],
     modal: "images/modal content/deep cycle H modal/sensitive.jpg",
-    tags: ["deep cycle H", "sensitive", "sensitivity", "asthma"],
+    tags: [
+      "deep cycle H",
+      "sensitive",
+      "sensitivity",
+      "asthma",
+      "itching",
+      "rash",
+      "inflammation",
+    ],
   },
   //DEEP CYCLE H
   //DIGITAL NUTRITION MIXTURES 1
@@ -1025,7 +1132,7 @@ export const dataObjects = [
     models: ["pro"],
     modal:
       "images/modal content/digital nutrition mix 1 modal/muscle harmony.jpg",
-    tags: ["muscles", "muscle", "muscular", "muscular system"],
+    tags: ["muscles", "muscle", "muscular", "muscular system", "inflammation"],
   },
   {
     img: "images/digital nutrition mixtures 1/nails.jpg",
@@ -1041,7 +1148,7 @@ export const dataObjects = [
     models: ["pro"],
     modal:
       "images/modal content/digital nutrition mix 1 modal/nerve harmony.jpg",
-    tags: ["nerves", "nerve", "nervous", "nervous system"],
+    tags: ["nerves", "nerve", "nervous", "nervous system", "inflammation"],
   },
   {
     img: "images/digital nutrition mixtures 1/skin.jpg",
@@ -1049,7 +1156,7 @@ export const dataObjects = [
     models: ["pro"],
     modal:
       "images/modal content/digital nutrition mix 1 modal/skin harmony.jpg",
-    tags: ["skin", "skin care", "skincare", "itching", "rash"],
+    tags: ["skin", "skin care", "skincare", "itching", "rash", "inflammation"],
   },
   {
     img: "images/digital nutrition mixtures 1/thyroid.jpg",
@@ -1116,6 +1223,7 @@ export const dataObjects = [
       "tissue",
       "connective tissues",
       "tissues",
+      "inflammation",
     ],
   },
   {
@@ -1221,6 +1329,9 @@ export const dataObjects = [
       "allergic responses",
       "allergic response",
       "allergic sensitivity",
+      "itching",
+      "rash",
+      "inflammation",
     ],
   },
   {
@@ -1337,6 +1448,9 @@ export const dataObjects = [
       "toxicity level",
       "toxic levels",
       "toxic level",
+      "itching",
+      "rash",
+      "inflammation",
     ],
   },
   //DIGITAL NUTRITION MIXTURES 3
@@ -1437,6 +1551,9 @@ export const dataObjects = [
       "renewal",
       "renewing",
       "renewed",
+      "itching",
+      "rash",
+      "inflammation",
     ],
   },
   {
@@ -1571,8 +1688,8 @@ export const dataObjects = [
     tags: ["reduction", "reduce", "reducing", "reduced"],
   },
   {
-    img: "images/digital nutrition mixtures 5/regidity.jpg",
-    name: "Regidity",
+    img: "images/digital nutrition mixtures 5/rigidity.jpg",
+    name: "Rigidity",
     models: ["pro"],
     modal: "images/modal content/digital nutrition mix 5 modal/rigidity.jpg",
     tags: ["rigidity", "rigid", "rigidness", "rigidly"],
@@ -1625,6 +1742,7 @@ export const dataObjects = [
       "work",
       "out",
       "fitness",
+      "inflammation",
     ],
   },
   {
@@ -1800,6 +1918,9 @@ export const dataObjects = [
       "remove",
       "asthma",
       "anxiety",
+      "itching",
+      "rash",
+      "inflammation",
     ],
   },
   {
@@ -1839,6 +1960,7 @@ export const dataObjects = [
       "asthma",
       "cramps",
       "anxiety",
+      "inflammation",
     ],
   },
   //FITNESS
@@ -2348,6 +2470,7 @@ export const dataObjects = [
       "flexibility",
       "meridian",
       "meridians",
+      "inflammation",
     ],
   },
   {
@@ -2458,6 +2581,7 @@ export const dataObjects = [
       "organs",
       "itching",
       "rash",
+      "inflammation",
     ],
   },
   {
