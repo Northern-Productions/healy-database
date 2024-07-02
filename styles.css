@@ -8,15 +8,21 @@ body {
   justify-content: center;
 }
 
+.header-ctn {
+  position: relative;
+}
+
 .header-icon {
   width: 10%;
   margin: 1rem;
+  position: absolute;
+  top: -85px;
 }
 
 .header {
   text-align: center;
   font-size: 5rem;
-  margin: 0;
+  margin: 5rem 1rem 0;
 }
 
 
