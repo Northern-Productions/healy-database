@@ -179,14 +179,30 @@ export const dataObjects = [
     name: "Skin Harmony Local",
     models: ["all", "plus", "pro"],
     modal: "images/modal content/beauty and skin modal/skin harmony local.jpg",
-    tags: ["Skin Harmony Local", "skin", "beauty", "local", "harmony"],
+    tags: [
+      "Skin Harmony Local",
+      "skin",
+      "beauty",
+      "local",
+      "harmony",
+      "itching",
+      "rash",
+    ],
   },
   {
     img: "images/beauty and skin/skin harmony syst.jpg",
     name: "Skin Harmony Systemic",
     models: ["all", "plus", "pro"],
     modal: "images/modal content/beauty and skin modal/skin harmony system.jpg",
-    tags: ["Skin Harmony Systemic", "skin", "harmony", "beauty", "systemic"],
+    tags: [
+      "Skin Harmony Systemic",
+      "skin",
+      "harmony",
+      "beauty",
+      "systemic",
+      "itching",
+      "rash",
+    ],
   },
   {
     img: "images/beauty and skin/skin impurity syst.jpg",
@@ -201,6 +217,8 @@ export const dataObjects = [
       "beauty",
       "systemic",
       "purity",
+      "itching",
+      "rash",
     ],
   },
   {
@@ -208,7 +226,7 @@ export const dataObjects = [
     name: "Beauty Skin",
     models: ["pro"],
     modal: "images/modal content/beauty and skin modal/skin.jpg",
-    tags: ["beauty", "skin"],
+    tags: ["beauty", "skin", "itching", "rash"],
   },
   //SKIN AND BEAUTY
   //BIOENERGETIC DEFENSE
@@ -385,6 +403,8 @@ export const dataObjects = [
       "gi",
       "digest",
       "digestion",
+      "candida",
+      "yeast",
     ],
   },
   {
@@ -432,7 +452,14 @@ export const dataObjects = [
     models: ["all", "holistic", "plus", "pro"],
     modal:
       "images/modal content/bioenergetic harmony 2 modal/food imbalances.jpg",
-    tags: ["bioenergetic harmony", "food", "imbalance", "digestion"],
+    tags: [
+      "bioenergetic harmony",
+      "food",
+      "imbalance",
+      "digestion",
+      "candida",
+      "yeast",
+    ],
   },
   {
     img: "images/bioenergetic harmony 2/gastrointestinal harmony.jpg",
@@ -447,6 +474,8 @@ export const dataObjects = [
       "gut",
       "digestion",
       "digest",
+      "candida",
+      "yeast",
     ],
   },
   {
@@ -465,6 +494,8 @@ export const dataObjects = [
       "clarity",
       "focus",
       "cold",
+      "oral",
+      "teeth",
     ],
   },
   {
@@ -748,6 +779,8 @@ export const dataObjects = [
       "emotion",
       "emotions",
       "emotional",
+      "candida",
+      "yeast",
     ],
   },
   {
@@ -933,6 +966,8 @@ export const dataObjects = [
       "digestion",
       "digestive",
       "digestive system",
+      "candida",
+      "yeast",
     ],
   },
   {
@@ -956,6 +991,8 @@ export const dataObjects = [
       "migraine",
       "migraines",
       "migraine",
+      "oral",
+      "teeth",
     ],
   },
   {
@@ -1012,7 +1049,7 @@ export const dataObjects = [
     models: ["pro"],
     modal:
       "images/modal content/digital nutrition mix 1 modal/skin harmony.jpg",
-    tags: ["skin", "skin care", "skincare"],
+    tags: ["skin", "skin care", "skincare", "itching", "rash"],
   },
   {
     img: "images/digital nutrition mixtures 1/thyroid.jpg",
@@ -1429,7 +1466,7 @@ export const dataObjects = [
     models: ["pro"],
     modal:
       "images/modal content/digital nutrition mix 4 modal/skin and wounds.jpg",
-    tags: ["wounds", "wound", "injury", "injuries"],
+    tags: ["wounds", "wound", "injury", "injuries", "itching", "rash"],
   },
   //DIGITAL NUTRITION MIXTURES 4
   //DIGITAL NUTRITION MIXTURES 5
@@ -2160,6 +2197,13 @@ export const dataObjects = [
       "relaxing",
       "anxiety",
       "mind",
+      "anger",
+      "angry",
+      "irritability",
+      "irritable",
+      "fear",
+      "resentment",
+      "resent",
     ],
   },
   {
@@ -2396,6 +2440,8 @@ export const dataObjects = [
       "organ",
       "organs",
       "asthma",
+      "candida",
+      "yeast",
     ],
   },
   {
@@ -2403,7 +2449,16 @@ export const dataObjects = [
     name: "skin harmony",
     models: ["all", "holistic", "resonance", "plus", "pro"],
     modal: "images/modal content/meridians 1 modal/skin harmony.jpg",
-    tags: ["meridian", "meridians", "skin", "harmony", "organ", "organs"],
+    tags: [
+      "meridian",
+      "meridians",
+      "skin",
+      "harmony",
+      "organ",
+      "organs",
+      "itching",
+      "rash",
+    ],
   },
   {
     img: "images/meridians 1/small intestine.jpg",
