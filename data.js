@@ -621,6 +621,10 @@ export const dataObjects = [
       "harmony",
       "local",
       "inflammation",
+      "back",
+      "pain",
+      "back pain",
+      "leg pain",
     ],
   },
   {
