@@ -2723,7 +2723,10 @@ export const dataObjects = [
       "stimulation",
       "locally",
       "local",
+      "local pain",
       "cramps",
+      "back",
+      "back pain",
     ],
   },
   {
